@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/abc/Desktop/bitzscal/backend/backend/dist/logs/debug/.1692acc28519d0083d07c529c1ea6f8c676baac5-audit.json",
+    "files": [
+        {
+            "date": 1675228631376,
+            "name": "/home/abc/Desktop/bitzscal/backend/backend/dist/logs/debug/2023-02-01.log",
+            "hash": "ab72b90bca6773ff99700ee6454b3805828988ea608021ae3f2b143858863e91"
+        }
+    ],
+    "hashType": "sha256"
+}

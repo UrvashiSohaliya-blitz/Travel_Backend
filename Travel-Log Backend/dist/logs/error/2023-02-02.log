@@ -1,0 +1,249 @@
+2023-02-02 09:12:01 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/src/app.ts:37:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/src/server.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1621:12)
+2023-02-02 09:12:26 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/src/app.ts:37:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/src/server.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1621:12)
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:00 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:01 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:46 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:46 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:46 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:46 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:46 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:24:47 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 09:25:06 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 10:05:18 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-02 10:15:15 error: [GET] /blogs/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "blog"
+2023-02-02 10:15:15 error: [GET] /blogs/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "blog"
+2023-02-02 10:16:04 error: [GET] /blogs/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "blog"
+2023-02-02 10:16:10 error: [GET] /blogs/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "blog"
+2023-02-02 10:37:07 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 10:37:08 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 10:37:25 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 10:37:25 error: [GET] /users/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+2023-02-02 10:48:53 error: [GET] /blogs/63da340296dc1536aa0b7be8 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-02 10:48:58 error: [GET] /blogs/63da340296dc1536aa0b7be8 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-02 10:50:46 error: [GET] /blogs/63da340296dc1536aa0b7be8 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-02 10:50:46 error: [GET] /blogs/63da340296dc1536aa0b7be8 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-02 10:50:59 error: [GET] /blogs/63da340296dc1536aa0b7be8 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-02 10:50:59 error: [GET] /blogs/63da340296dc1536aa0b7be8 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-02 12:25:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/blogs.service.ts[0m:[93m15[0m:[93m23[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m15[0m     return {data:Blog[]:data ,length:length.length};
+[7m  [0m [91m                      [0m
+[96msrc/services/blogs.service.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m15[0m     return {data:Blog[]:data ,length:length.length};
+[7m  [0m [91m                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/blogs.service.ts[0m:[93m15[0m:[93m23[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m15[0m     return {data:Blog[]:data ,length:length.length};
+[7m  [0m [91m                      [0m
+[96msrc/services/blogs.service.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m15[0m     return {data:Blog[]:data ,length:length.length};
+[7m  [0m [91m                       ~[0m
+
+    at createTSError (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-02 12:25:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/blogs.service.ts[0m:[93m15[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m15[0m     return {data<Blog>:data ,length:length.length};
+[7m  [0m [91m                      ~[0m
+[96msrc/services/blogs.service.ts[0m:[93m15[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m15[0m     return {data<Blog>:data ,length:length.length};
+[7m  [0m [91m                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/blogs.service.ts[0m:[93m15[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m15[0m     return {data<Blog>:data ,length:length.length};
+[7m  [0m [91m                      ~[0m
+[96msrc/services/blogs.service.ts[0m:[93m15[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m15[0m     return {data<Blog>:data ,length:length.length};
+[7m  [0m [91m                            ~[0m
+
+    at createTSError (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-02 12:32:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/blogs.controller.ts[0m:[93m28[0m:[93m72[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m28[0m       const length = await this.blogService.findAllBlogLength() / limit:number;
+[7m  [0m [91m                                                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/blogs.controller.ts[0m:[93m28[0m:[93m72[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m28[0m       const length = await this.blogService.findAllBlogLength() / limit:number;
+[7m  [0m [91m                                                                       ~[0m
+
+    at createTSError (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-02 12:34:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/blogs.controller.ts[0m:[93m29[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m29[0m       const Totalpage = length / limit:any;
+[7m  [0m [91m                                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/blogs.controller.ts[0m:[93m29[0m:[93m39[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m29[0m       const Totalpage = length / limit:any;
+[7m  [0m [91m                                      ~[0m
+
+    at createTSError (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-02 15:53:34 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:53:34 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:53:38 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:53:42 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:53:42 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:53:47 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:53:54 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:54:05 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:54:05 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:54:36 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:54:36 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:54:55 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:54:55 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:55:00 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:55:00 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:55:10 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:55:17 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:56:11 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:56:36 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:56:41 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:57:53 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:57:53 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:58:04 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:58:56 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 15:59:35 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 16:00:26 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 16:00:36 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 16:01:18 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 16:03:37 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 16:04:15 error: [GET] /blogs >> StatusCode:: 500, Message:: typeOf is not defined
+2023-02-02 16:04:16 error: [GET] /blogs >> StatusCode:: 500, Message:: typeOf is not defined
+2023-02-02 16:05:40 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 16:06:04 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "blog"
+2023-02-02 18:24:32 error: [PATCH] /blogs/new%20text >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "{ _id: 'new text' }" (type Object) at path "_id" for model "blog"
+2023-02-02 20:29:35 error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:926:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/home/abc/Desktop/bitzscal/backend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/abc/Desktop/bitzscal/backend/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/home/abc/Desktop/bitzscal/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/abc/Desktop/bitzscal/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/abc/Desktop/bitzscal/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
