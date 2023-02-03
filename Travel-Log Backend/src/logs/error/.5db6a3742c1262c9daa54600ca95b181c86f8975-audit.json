@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/.5db6a3742c1262c9daa54600ca95b181c86f8975-audit.json",
+    "files": [
+        {
+            "date": 1675427769729,
+            "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/2023-02-03.log",
+            "hash": "23cb4e45758db9e6d459be19642d2c48351bb8e6366e2c1026bc88d09103624b"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -11,7 +11,7 @@ class QuestionService {
   public async createQuestion(questionData: CreateQuestionDto): Promise<Question> {
     if (isEmpty(questionData)) throw new HttpException(400, "blogData is empty");
     const data: Question =  await this.questions.create({ ...questionData});
-    
+    console.log(data)
     return data;
    
     
@@ -25,8 +25,17 @@ class QuestionService {
     }
     public async findQuestionByUserId(userId: String): Promise<Question[]>{
         if (isEmpty(userId)) throw new HttpException(400, "userId is required");
-
+       
         const data:Question[] = await this.questions.find({ userId: userId });
+      
+        return data;
+
+    }
+   public async findQuestionByblogUser(userId: String): Promise<Question[]>{
+        if (isEmpty(userId)) throw new HttpException(400, "userId is required");
+       
+        const data:Question[] = await this.questions.find({ blogUser: userId });
+      
         return data;
 
     }

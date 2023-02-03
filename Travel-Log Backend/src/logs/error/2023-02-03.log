@@ -199,3 +199,26 @@ Error: EIO: i/o error, write
     at doWrite (/home/abc/Desktop/bitzscal/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
     at writeOrBuffer (/home/abc/Desktop/bitzscal/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
     at Console.Writable.write (/home/abc/Desktop/bitzscal/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+2023-02-03 18:08:23 error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:926:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+2023-02-03 18:32:38 error: [GET] /question/user/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "question"
+2023-02-03 18:41:00 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: question: Path `question` is required.
+2023-02-03 18:53:34 error: [GET] /question/user/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "userId" for model "question"
+2023-02-03 18:54:46 error: [GET] /question/user/ >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "user" (type string) at path "_id" for model "question"
+2023-02-03 18:54:50 error: [GET] /question/user/ >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "user" (type string) at path "_id" for model "question"
+2023-02-03 18:55:27 error: [GET] /question/user/ >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "user" (type string) at path "_id" for model "question"
+2023-02-03 19:58:10 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-03 19:58:25 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-03 19:58:31 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-03 19:58:51 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-03 19:59:01 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching

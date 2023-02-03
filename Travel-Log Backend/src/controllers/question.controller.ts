@@ -32,6 +32,21 @@ class questionController {
             next(error);
         }
     }
+
+        public findQuestionsByblogUser = async (req: Request, res: Response, next: NextFunction) => {
+        
+        try {
+            let { id } = req.params;
+
+           
+             let findQuestion = await this.questionService.findQuestionByblogUser(id);
+             res.status(200).json({ data: findQuestion, message: 'all questions' });
+             
+        } catch (error) {
+            next(error);
+        }
+    }
+
    public findQuestionsByBlog = async (req: Request, res: Response, next: NextFunction) => {
         
         try {
