@@ -222,3 +222,39 @@ Error: EIO: i/o error, write
 2023-02-03 19:58:31 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
 2023-02-03 19:58:51 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
 2023-02-03 19:59:01 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-03 20:22:03 error: uncaughtException: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:900:11)
+    at WriteStream.Socket._write (node:net:912:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at console.value (node:internal/console/constructor:300:16)
+    at console.log (node:internal/console/constructor:377:26)
+    at NativeCollection.$print (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:287:11)
+2023-02-03 20:22:03 error: uncaughtException: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:900:11)
+    at WriteStream.Socket._write (node:net:912:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at console.value (node:internal/console/constructor:300:16)
+    at console.log (node:internal/console/constructor:377:26)
+    at NativeCollection.$print (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:287:11)
+2023-02-03 20:22:04 error: uncaughtException: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at WriteStream.Socket._writeGeneric (node:net:900:11)
+    at WriteStream.Socket._write (node:net:912:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at WriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at console.value (node:internal/console/constructor:300:16)
+    at console.log (node:internal/console/constructor:377:26)
+    at NativeCollection.$print (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:287:11)

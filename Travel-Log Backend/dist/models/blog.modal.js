@@ -52,6 +52,15 @@ const blogSchema = new _mongoose.Schema({
             type: String
         }
     ],
+    allowQustions: {
+        type: Boolean,
+        default: false
+    },
+    images: [
+        {
+            type: String
+        }
+    ],
     heritages: [
         {
             type: String
