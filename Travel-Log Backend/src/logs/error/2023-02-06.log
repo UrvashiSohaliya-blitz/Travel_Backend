@@ -105,3 +105,214 @@ SyntaxError: Unexpected token ';'
 2023-02-06 13:02:34 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
 2023-02-06 13:03:02 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
 2023-02-06 13:03:10 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 13:54:31 error: [POST] /question/answer/63e0ad6dc3726545220a660b >> StatusCode:: 400, Message:: answer is required
+2023-02-06 13:54:36 error: [POST] /question/answer/63e0ad6dc3726545220a660b >> StatusCode:: 400, Message:: answer is required
+2023-02-06 13:55:05 error: [POST] /question/answer/63e0ad6dc3726545220a660b >> StatusCode:: 400, Message:: answer is required
+2023-02-06 13:57:15 error: [POST] /question/create >> StatusCode:: 500, Message:: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2023-02-06 13:57:15 error: [GET] /users/63da492af93431821a372326 >> StatusCode:: 500, Message:: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2023-02-06 14:37:38 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-06 14:39:25 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-06 14:39:33 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-06 14:42:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 14:42:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 14:49:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 14:50:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 14:51:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 14:51:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 14:53:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 14:54:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 14:54:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/question.service.ts[0m:[93m37[0m:[93m81[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m         const data:Question[] = await this.questions.find({ blogUser: userId })..sort({createdAt:-1});
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-06 15:00:11 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-06 15:00:18 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-06 15:10:26 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-06 15:10:33 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-06 15:10:35 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large

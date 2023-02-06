@@ -19,14 +19,14 @@ class QuestionService {
     public async findQuestionByBlogId(blogId: String): Promise<Question[]>{
         if (isEmpty(blogId)) throw new HttpException(400, "blogId is required");
 
-        const data:Question[] = await this.questions.find({ blogId: blogId });
+        const data:Question[] = await this.questions.find({ blogId: blogId }).sort({createdAt:-1});
         return data;
 
     }
     public async findQuestionByUserId(userId: String): Promise<Question[]>{
         if (isEmpty(userId)) throw new HttpException(400, "userId is required");
        
-        const data:Question[] = await this.questions.find({ userId: userId });
+        const data:Question[] = await this.questions.find({ userId: userId }).sort({createdAt:-1});
       
         return data;
 
@@ -34,7 +34,7 @@ class QuestionService {
    public async findQuestionByblogUser(userId: String): Promise<Question[]>{
         if (isEmpty(userId)) throw new HttpException(400, "userId is required");
        
-        const data:Question[] = await this.questions.find({ blogUser: userId });
+        const data:Question[] = await this.questions.find({ blogUser: userId }).sort({createdAt:-1});
       
         return data;
 
