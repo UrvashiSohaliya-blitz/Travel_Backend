@@ -10,7 +10,7 @@ class QuestionService {
  
   public async createQuestion(questionData: CreateQuestionDto): Promise<Question> {
     if (isEmpty(questionData)) throw new HttpException(400, "blogData is empty");
-    const data: Question =  await this.questions.create({ ...questionData});
+    const data: Question =  await this.questions.create(questionData);
     console.log(data)
     return data;
    
@@ -46,9 +46,20 @@ class QuestionService {
         return data;
 
     }
- public async updateQuestion(blogId:string,data:any ): Promise<Question> {
-   
-   const updateQuestionById = await this.questions.findByIdAndUpdate({ _id: blogId }, data);
+     public async addAnswer(id: String,answer:String): Promise<Question>{
+       if (isEmpty(id)) throw new HttpException(400, "id is required");
+       else if (isEmpty(answer))throw new HttpException(400, "answer is required");
+       else {
+        const data:Question = await this.questions.findOneAndUpdate({ _id: id },{answer:answer});
+        return data; 
+       }
+
+        
+
+    }
+ public async updateQuestion(questionId:string,question:any ): Promise<Question> {
+   if (isEmpty(questionId)) throw new HttpException(400, "id is required");
+   const updateQuestionById = await this.questions.findByIdAndUpdate({ _id: questionId }, {question:question});
     if (!updateQuestionById) throw new HttpException(409, "Question doesn't exist");
    return updateQuestionById;
 

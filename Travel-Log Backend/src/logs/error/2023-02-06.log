@@ -1,0 +1,107 @@
+2023-02-06 10:24:20 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)
+2023-02-06 10:24:32 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)
+2023-02-06 10:24:55 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)
+2023-02-06 10:25:04 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)
+2023-02-06 10:25:25 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)
+2023-02-06 10:25:40 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)
+2023-02-06 10:40:52 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-06 10:41:01 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-06 11:37:41 error: uncaughtException: Unexpected token ';'
+/home/abc/Desktop/sampleProject/Travel-Log Backend/src/controllers/question.controller.ts:72
+                const ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-06 11:41:53 error: uncaughtException: Unexpected token ';'
+/home/abc/Desktop/sampleProject/Travel-Log Backend/src/controllers/question.controller.ts:72
+                const ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-06 11:42:38 error: uncaughtException: Unexpected token ';'
+/home/abc/Desktop/sampleProject/Travel-Log Backend/src/controllers/question.controller.ts:72
+                const ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-06 11:43:05 error: uncaughtException: Unexpected token ';'
+/home/abc/Desktop/sampleProject/Travel-Log Backend/src/controllers/question.controller.ts:72
+                const ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-06 11:54:27 error: [GET] /question/askedtome/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "blogUser" for model "question"
+2023-02-06 12:40:58 error: [GET] /question/askedtome/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "blogUser" for model "question"
+2023-02-06 12:41:03 error: [GET] /question/askedtome/undefined >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "undefined" (type string) at path "blogUser" for model "question"
+2023-02-06 12:45:18 error: [DELETE] /question/63dcde603a02a0b0e49cd496 >> StatusCode:: 500, Message:: connection 4 to 3.6.254.57:27017 closed
+2023-02-06 12:47:06 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:48:33 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:50:43 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:52:01 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:53:33 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required., question: Path `question` is required.
+2023-02-06 12:54:50 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:56:06 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: question: Path `question` is required., answer: Path `answer` is required.
+2023-02-06 12:56:12 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:57:20 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:58:03 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:59:03 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 12:59:04 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: question: Path `question` is required., answer: Path `answer` is required.
+2023-02-06 12:59:46 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 13:00:09 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 13:01:41 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 13:02:16 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 13:02:34 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 13:03:02 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.
+2023-02-06 13:03:10 error: [POST] /question/create >> StatusCode:: 500, Message:: question validation failed: answer: Path `answer` is required.

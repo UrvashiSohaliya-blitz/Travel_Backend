@@ -4,5 +4,6 @@ export class CreateQuestionDto {
   public blogId: string;
   public question: string;
   public blogUser: string;
+  public answer: string;
     
 }

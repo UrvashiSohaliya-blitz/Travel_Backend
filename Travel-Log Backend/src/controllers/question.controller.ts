@@ -3,13 +3,14 @@ import { Question } from '@interfaces/question.interface';
 import QuestionService from '../services/question.service';
 import { CreateQuestionDto } from '@dtos/questions.dto';
 
+
 class questionController {
   public questionService = new QuestionService();
 
   public createQuestion = async (req: Request, res: Response, next: NextFunction) => {
     try {
         const questionData: CreateQuestionDto = req.body;
-     
+    
       const createdQuestion: Question = await this.questionService.createQuestion(questionData);
 
       res.status(201).json({ data: createdQuestion, message: 'question created' });
@@ -75,14 +76,27 @@ class questionController {
     public updateQuestionById = async (req: Request, res: Response, next: NextFunction) => {
         try {
             const questionId: string = req.params.id;
-            const data = req.body;
-            const updateQuestionData: Question = await this.questionService.updateQuestion(questionId, data);
+            const {question} = req.body;
+            const updateQuestionData: Question = await this.questionService.updateQuestion(questionId, question);
               res.status(200).json({ data: updateQuestionData, message: 'updateQuestion' });
     } catch (error) {
       next(error);
     }
        
     }
+
+  public addAnswer = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const questionId: string = req.params.id;
+      const { answer } = req.body;
+
+      const addAnswerQ: Question = await this.questionService.addAnswer(questionId, answer);
+      res.status(200).json({ data: addAnswerQ, message: 'Answer Question' })
+
+    } catch (error) {
+      next(error)
+    }
+  }
 
     public deleteQuestion = async (req: Request, res: Response, next: NextFunction) => {
         try {

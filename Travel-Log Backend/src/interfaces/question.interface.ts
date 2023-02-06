@@ -3,5 +3,6 @@ export interface Question {
     userId: String,
     blogId: String,
     question: String,
-    blogUser:String
+    blogUser: String,
+    answer:String
     }
