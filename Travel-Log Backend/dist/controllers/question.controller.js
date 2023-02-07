@@ -78,11 +78,24 @@ let questionController = class questionController {
         this.updateQuestionById = async (req, res, next)=>{
             try {
                 const questionId = req.params.id;
-                const data = req.body;
-                const updateQuestionData = await this.questionService.updateQuestion(questionId, data);
+                const { question  } = req.body;
+                const updateQuestionData = await this.questionService.updateQuestion(questionId, question);
                 res.status(200).json({
                     data: updateQuestionData,
                     message: 'updateQuestion'
+                });
+            } catch (error) {
+                next(error);
+            }
+        };
+        this.addAnswer = async (req, res, next)=>{
+            try {
+                const questionId = req.params.id;
+                const { answer  } = req.body;
+                const addAnswerQ = await this.questionService.addAnswer(questionId, answer);
+                res.status(200).json({
+                    data: addAnswerQ,
+                    message: 'Answer Question'
                 });
             } catch (error) {
                 next(error);

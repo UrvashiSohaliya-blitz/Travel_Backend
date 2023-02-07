@@ -1,0 +1,1134 @@
+2023-02-01 10:49:25 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/auth.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 11:22:44 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:24:23 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:38:53 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:40:22 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-02-01 11:40:45 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:41:27 error: [POST] /login >> StatusCode:: 500, Message:: Operation `users.findOne()` buffering timed out after 10000ms
+2023-02-01 11:41:44 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:43:00 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:44:31 error: [POST] /login >> StatusCode:: 500, Message:: Operation `users.findOne()` buffering timed out after 10000ms
+2023-02-01 11:44:51 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:45:36 error: [POST] /signup >> StatusCode:: 500, Message:: Operation `users.findOne()` buffering timed out after 10000ms
+2023-02-01 11:45:40 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:46:22 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:53:35 error: uncaughtException: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/connection.js:825:32)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:409:10
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:1262:10)
+    at Mongoose.connect (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongoose/lib/index.js:408:20)
+    at App.connectToDatabase (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:52:12)
+    at new App (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:27:10)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:9:13)
+2023-02-01 11:54:05 error: uncaughtException: bad auth : authentication failed
+MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/connection.ts:440:20)
+    at MessageStream.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/connection.ts:240:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/message_stream.ts:189:12)
+    at MessageStream._write (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+2023-02-01 11:55:39 error: uncaughtException: bad auth : authentication failed
+MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/connection.ts:440:20)
+    at MessageStream.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/connection.ts:240:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/message_stream.ts:189:12)
+    at MessageStream._write (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+2023-02-01 11:59:34 error: uncaughtException: bad auth : authentication failed
+MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/connection.ts:440:20)
+    at MessageStream.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/connection.ts:240:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/message_stream.ts:189:12)
+    at MessageStream._write (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+2023-02-01 12:00:14 error: uncaughtException: bad auth : authentication failed
+MongoServerError: bad auth : authentication failed
+    at Connection.onMessage (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/connection.ts:440:20)
+    at MessageStream.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/connection.ts:240:56)
+    at MessageStream.emit (node:events:513:28)
+    at MessageStream.emit (node:domain:489:12)
+    at processIncomingData (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/message_stream.ts:189:12)
+    at MessageStream._write (/home/abc/Desktop/bitzscal/backend/backend/node_modules/mongodb/src/cmap/message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+2023-02-01 12:01:38 error: [POST] /signup >> StatusCode:: 409, Message:: This email abcd@gmail.com already exists
+2023-02-01 12:07:26 error: [POST] /signup >> StatusCode:: 409, Message:: This email abcd@gmail.com already exists
+2023-02-01 12:07:40 error: [POST] /signup >> StatusCode:: 500, Message:: User validation failed: age: Path `age` is required., name: Path `name` is required.
+2023-02-01 12:08:04 error: [POST] /signup >> StatusCode:: 400, Message:: property age should not exist, property name should not exist
+2023-02-01 12:10:01 error: [POST] /signup >> StatusCode:: 400, Message:: property age should not exist, property name should not exist
+2023-02-01 12:12:11 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/auth.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 12:13:14 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/auth.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 12:13:41 error: [POST] /signup >> StatusCode:: 400, Message:: property age should not exist, property name should not exist
+2023-02-01 12:15:41 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/index.test.js:8:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 12:15:44 error: uncaughtException: Unexpected identifier 'bcrypt_1'
+/home/abc/Desktop/bitzscal/backend/backend/src/tests/auth.test.js:37
+            password: await bcrypt_1.default.hash(userData.password, 10)
+                            ^^^^^^^^
+
+SyntaxError: Unexpected identifier 'bcrypt_1'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at WebSocket.emit (node:domain:489:12)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 12:15:49 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/auth.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at WebSocket.emit (node:domain:489:12)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 12:15:49 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/auth.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at WebSocket.emit (node:domain:489:12)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 12:19:36 error: [POST] /signup >> StatusCode:: 400, Message:: property age should not exist, property name should not exist
+2023-02-01 12:21:06 error: [POST] /signup >> StatusCode:: 400, Message:: property age should not exist, property name should not exist
+2023-02-01 12:21:53 error: [POST] /signup >> StatusCode:: 400, Message:: property age should not exist, property name should not exist
+2023-02-01 12:21:55 error: [POST] /signup >> StatusCode:: 400, Message:: property age should not exist, property name should not exist
+2023-02-01 12:22:58 error: [POST] /signup >> StatusCode:: 409, Message:: This email abc12@gmail.com already exists
+2023-02-01 12:28:07 error: [POST] /users >> StatusCode:: 409, Message:: This email abcd@gmail.com already exists
+2023-02-01 14:16:29 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:35:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.js:16:23)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:16:50 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:35:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.js:16:23)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:17:14 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:35:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.js:18:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:17:27 error: [POST] /blogs/create >> StatusCode:: 500, Message:: blog validation failed: travelCost: Path `travelCost` is required., journyDate.endDate: Path `journyDate.endDate` is required., journyDate.startDate: Path `journyDate.startDate` is required., description: Path `description` is required., title: Path `title` is required., user: Path `user` is required.
+2023-02-01 14:17:33 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:35:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.js:18:24)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:20:21 error: [POST] /blogs/create >> StatusCode:: 500, Message:: blog validation failed: user: Cast to ObjectId failed for value "String" (type string) at path "user" because of "BSONTypeError"
+2023-02-01 14:20:32 error: [POST] /users >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-02-01 14:21:01 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:21:42 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:22:14 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:23:12 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:23:58 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:24:01 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:24:41 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/auth.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:24:45 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/index.test.js:8:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:24:47 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/users.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:25:24 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:27:09 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:27:12 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:28:00 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:29:30 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "String" }
+2023-02-01 14:29:33 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "String" }
+2023-02-01 14:29:50 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "String" }
+2023-02-01 14:30:14 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016997f32b0') }
+2023-02-01 14:30:42 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "String" }
+2023-02-01 14:30:53 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: ObjectId('63da07431522d016977f32b0') }
+2023-02-01 14:32:39 error: [POST] /blogs/create >> StatusCode:: 500, Message:: blog validation failed: userId: Path `userId` is required.
+2023-02-01 14:32:49 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "String11" }
+2023-02-01 14:33:08 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:34:30 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:35:02 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/auth.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:35:02 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/index.test.js:8:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:35:12 error: uncaughtException: afterAll is not defined
+ReferenceError: afterAll is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/tests/users.test.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (node:events:513:28)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (node:internal/streams/writable:500:5)
+    at onwrite (node:internal/streams/writable:480:7)
+    at Zlib.cb (node:internal/streams/transform:190:7)
+    at Zlib.processCallback (node:zlib:613:8)
+2023-02-01 14:37:06 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:37:12 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:39:15 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:40:03 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:40:04 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:40:13 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:40:15 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:42:09 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:42:19 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:42:44 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:43:03 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:43:07 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:43:15 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:43:21 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:44:54 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:45:19 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:45:31 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:46:34 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:46:38 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:47:35 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:48:32 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:48:47 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:49:25 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:50:01 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:50:16 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:50:23 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:50:57 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:51:16 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:51:22 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:53:08 error: [POST] /blogs/create >> StatusCode:: 500, Message:: blog validation failed: userId: Path `userId` is required.
+2023-02-01 14:53:15 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:54:58 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:55:15 error: [POST] /blogs/create >> StatusCode:: 500, Message:: blog validation failed: userId: Path `userId` is required.
+2023-02-01 14:55:52 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:55:54 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:57:02 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:57:03 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:57:52 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:58:43 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 14:59:19 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:03:07 error: uncaughtException: Identifier 'data' has already been declared
+/home/abc/Desktop/bitzscal/backend/backend/src/services/blogs.service.ts:28
+        const data = await this.blogs.create(blogData);
+              ^
+
+SyntaxError: Identifier 'data' has already been declared
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-01 15:03:53 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:03:54 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:03:56 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:04:39 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:05:44 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:05:45 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:06:14 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:06:40 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:07:07 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:07:08 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:08:48 error: [POST] /login >> StatusCode:: 409, Message:: This email abcd1@gmail.com was not found
+2023-02-01 15:09:02 error: [POST] /signup >> StatusCode:: 500, Message:: User validation failed: age: Path `age` is required., name: Path `name` is required.
+2023-02-01 15:10:05 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: user_1 dup key: { user: null }
+2023-02-01 15:22:33 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 15:23:13 error: [POST] /signup >> StatusCode:: 409, Message:: This email abcd@gmail.com already exists
+2023-02-01 15:23:23 error: [POST] /signup >> StatusCode:: 500, Message:: User validation failed: age: Path `age` is required., name: Path `name` is required.
+2023-02-01 15:23:48 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmail.com already exists
+2023-02-01 15:46:16 error: [DELETE] /blogs/63da33c2de36421a1d7479c8 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-01 15:46:22 error: [GET] /blogs/63da33c2de36421a1d7479c8 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-01 15:58:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/blogs.controller.ts[0m:[93m52[0m:[93m5[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m52[0m     public deleteBlog = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/blogs.controller.ts[0m:[93m52[0m:[93m5[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m52[0m     public deleteBlog = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-01 15:58:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/blogs.controller.ts[0m:[93m52[0m:[93m5[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m52[0m     public deleteBlog = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/blogs.controller.ts[0m:[93m52[0m:[93m5[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m52[0m     public deleteBlog = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:863:19)
+    at /home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+2023-02-01 16:00:59 error: [DELETE] /blogs/63da350019464b63ebf88776 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-01 16:23:44 error: [GET] /blogs/create >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "create" (type string) at path "_id" for model "blog"
+2023-02-01 16:41:34 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmail.com already exists
+2023-02-01 16:44:05 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 16:44:53 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 16:45:23 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 16:45:25 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 16:45:35 error: [POST] /signup >> StatusCode:: 409, Message:: This email art12i@gmail.com already exists
+2023-02-01 16:54:05 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:54:07 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:54:08 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:54:08 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:54:09 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:54:21 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:55:43 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:09 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:10 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:24 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:25 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:25 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:25 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:25 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:25 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:56:25 error: [POST] /signup >> StatusCode:: 409, Message:: This email urvashi@gmial.com already exists
+2023-02-01 16:57:44 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 16:58:36 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 16:58:43 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 16:59:13 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 17:00:03 error: [POST] /signup >> StatusCode:: 409, Message:: This email arti@gmail.com already exists
+2023-02-01 17:01:44 error: [POST] /signup >> StatusCode:: 409, Message:: This email kavya@gmail.com already exists
+2023-02-01 17:06:52 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:06:53 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:06:58 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:07:27 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:07:30 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:07:53 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:07:55 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:01 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:02 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:11 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:36 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:39 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:47 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:47 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:48 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:51 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:08:59 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:09:18 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:09:20 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:10:02 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:10:16 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:10:35 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:10:44 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:11:25 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:14:59 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:15:09 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:15:11 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 17:20:18 error: [POST] /login >> StatusCode:: 409, Message:: This email arti@gmal.com was not found
+2023-02-01 19:29:40 error: [POST] /signup >> StatusCode:: 409, Message:: This email Urvashi12@gmail.com already exists
+2023-02-01 19:29:40 error: [POST] /signup >> StatusCode:: 409, Message:: This email Urvashi12@gmail.com already exists
+2023-02-01 19:30:36 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-01 20:33:08 error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:926:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+2023-02-01 22:16:56 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:35:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+2023-02-01 22:19:05 error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:1:1)
+2023-02-01 22:19:06 error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/app.js:19:20)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (events.js:314:20)
+    at WebSocket.EventEmitter.emit (domain.js:483:12)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (_stream_writable.js:490:5)
+    at onwrite (_stream_writable.js:470:7)
+    at InflateRaw.afterTransform (_stream_transform.js:98:3)
+    at Zlib.processCallback (zlib.js:585:8)
+2023-02-01 22:19:06 error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/app.js:19:20)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Module._0x387e8c.<computed> [as _compile] (eval at <anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/q/q.js:2075:6), <anonymous>:1:1119109)
+    at Object.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19646)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at Object.quokkaStackTraceMarker (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:18969)
+    at d.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:19772)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:8270)
+    at Object.next (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7565)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7464
+    at new Promise (<anonymous>)
+    at __awaiter (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:7258)
+    at d.quokkaStackTraceMarker [as _onStart] (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/runners/node/quokka@1.0.0/initializer.js:14:12409)
+    at r (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10291)
+    at d.start (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:29:10649)
+    at E.in:run (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:30020)
+    at WebSocket.<anonymous> (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/server.js:22:26851)
+    at WebSocket.emit (events.js:314:20)
+    at WebSocket.EventEmitter.emit (domain.js:483:12)
+    at Receiver.ontext (/home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/WebSocket.js:841:10)
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:536:18
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/Receiver.js:368:7
+    at /home/abc/.vscode/extensions/wallabyjs.quokka-vscode-1.0.524/dist/wallaby/node_modules/ws/lib/PerMessageDeflate.js:249:5
+    at afterWrite (_stream_writable.js:490:5)
+    at onwrite (_stream_writable.js:470:7)
+    at InflateRaw.afterTransform (_stream_transform.js:98:3)
+    at Zlib.processCallback (zlib.js:585:8)
+2023-02-01 22:19:57 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:37:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+2023-02-01 22:20:40 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:37:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+2023-02-01 22:21:13 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:37:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+2023-02-01 22:25:32 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:37:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+2023-02-01 22:26:53 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:16)
+    at listenInCluster (node:net:1516:12)
+    at Server.listen (node:net:1604:7)
+    at Function.listen (/home/abc/Desktop/bitzscal/backend/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/home/abc/Desktop/bitzscal/backend/backend/src/app.ts:37:14)
+    at Object.<anonymous> (/home/abc/Desktop/bitzscal/backend/backend/src/server.ts:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/bitzscal/backend/backend/node_modules/ts-node/src/index.ts:1621:12)
+2023-02-01 23:07:59 error: [POST] /signup >> StatusCode:: 409, Message:: This email Urvashi12121@gmail.com already exists
+2023-02-01 23:17:11 error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:926:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/abc/Desktop/bitzscal/backend/backend/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)

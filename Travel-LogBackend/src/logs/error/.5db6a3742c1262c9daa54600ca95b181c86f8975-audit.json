@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/.5db6a3742c1262c9daa54600ca95b181c86f8975-audit.json",
+    "files": [
+        {
+            "date": 1675427769729,
+            "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/2023-02-03.log",
+            "hash": "23cb4e45758db9e6d459be19642d2c48351bb8e6366e2c1026bc88d09103624b"
+        },
+        {
+            "date": 1675655774634,
+            "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/2023-02-06.log",
+            "hash": "096a76dc902d99b6068878543a00e0b6cef69fad6431eb77a3ada3681fb3a89c"
+        },
+        {
+            "date": 1675742299719,
+            "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/2023-02-07.log",
+            "hash": "3e857751558e51771061ea5e26dfc113aefccc09125d2c3128c63e5fc6fb4470"
+        }
+    ],
+    "hashType": "sha256"
+}

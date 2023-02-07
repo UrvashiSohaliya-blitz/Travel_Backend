@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/abc/Desktop/bitzscal/backend/dist/logs/debug/.e2ab22a46d237ac4678627af37a97df3f77a22b4-audit.json",
+    "files": [
+        {
+            "date": 1675309200001,
+            "name": "/home/abc/Desktop/bitzscal/backend/dist/logs/debug/2023-02-02.log",
+            "hash": "33f2552472e5c11b1b6d7e6aa5fb9d0cf66f3ce8af836242a7d7eaf6407d128a"
+        },
+        {
+            "date": 1675399236145,
+            "name": "/home/abc/Desktop/bitzscal/backend/dist/logs/debug/2023-02-03.log",
+            "hash": "cf432d9026a83dc8b7f52fbab2999239a992f2fc1bcbc6b1849425537d809378"
+        }
+    ],
+    "hashType": "sha256"
+}

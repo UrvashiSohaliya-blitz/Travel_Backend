@@ -9,43 +9,15 @@ Object.defineProperty(exports, "default", {
 const _httpException = require("../exceptions/HttpException");
 const _questionModel = _interopRequireDefault(require("../models/question.model"));
 const _util = require("../utils/util");
-function _defineProperty(obj, key, value) {
-    if (key in obj) {
-        Object.defineProperty(obj, key, {
-            value: value,
-            enumerable: true,
-            configurable: true,
-            writable: true
-        });
-    } else {
-        obj[key] = value;
-    }
-    return obj;
-}
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
     };
 }
-function _objectSpread(target) {
-    for(var i = 1; i < arguments.length; i++){
-        var source = arguments[i] != null ? arguments[i] : {};
-        var ownKeys = Object.keys(source);
-        if (typeof Object.getOwnPropertySymbols === 'function') {
-            ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function(sym) {
-                return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-            }));
-        }
-        ownKeys.forEach(function(key) {
-            _defineProperty(target, key, source[key]);
-        });
-    }
-    return target;
-}
 let QuestionService = class QuestionService {
     async createQuestion(questionData) {
         if ((0, _util.isEmpty)(questionData)) throw new _httpException.HttpException(400, "blogData is empty");
-        const data = await this.questions.create(_objectSpread({}, questionData));
+        const data = await this.questions.create(questionData);
         console.log(data);
         return data;
     }
@@ -53,6 +25,8 @@ let QuestionService = class QuestionService {
         if ((0, _util.isEmpty)(blogId)) throw new _httpException.HttpException(400, "blogId is required");
         const data = await this.questions.find({
             blogId: blogId
+        }).sort({
+            createdAt: -1
         });
         return data;
     }
@@ -60,6 +34,8 @@ let QuestionService = class QuestionService {
         if ((0, _util.isEmpty)(userId)) throw new _httpException.HttpException(400, "userId is required");
         const data = await this.questions.find({
             userId: userId
+        }).sort({
+            createdAt: -1
         });
         return data;
     }
@@ -67,6 +43,8 @@ let QuestionService = class QuestionService {
         if ((0, _util.isEmpty)(userId)) throw new _httpException.HttpException(400, "userId is required");
         const data = await this.questions.find({
             blogUser: userId
+        }).sort({
+            createdAt: -1
         });
         return data;
     }
@@ -77,10 +55,25 @@ let QuestionService = class QuestionService {
         });
         return data;
     }
-    async updateQuestion(blogId, data) {
+    async addAnswer(id, answer) {
+        if ((0, _util.isEmpty)(id)) throw new _httpException.HttpException(400, "id is required");
+        else if ((0, _util.isEmpty)(answer)) throw new _httpException.HttpException(400, "answer is required");
+        else {
+            const data = await this.questions.findOneAndUpdate({
+                _id: id
+            }, {
+                answer: answer
+            });
+            return data;
+        }
+    }
+    async updateQuestion(questionId, question) {
+        if ((0, _util.isEmpty)(questionId)) throw new _httpException.HttpException(400, "id is required");
         const updateQuestionById = await this.questions.findByIdAndUpdate({
-            _id: blogId
-        }, data);
+            _id: questionId
+        }, {
+            question: question
+        });
         if (!updateQuestionById) throw new _httpException.HttpException(409, "Question doesn't exist");
         return updateQuestionById;
     }

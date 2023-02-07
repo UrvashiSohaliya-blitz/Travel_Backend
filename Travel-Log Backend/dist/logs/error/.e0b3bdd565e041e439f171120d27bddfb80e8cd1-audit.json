@@ -9,6 +9,11 @@
             "date": 1675655657754,
             "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/dist/logs/error/2023-02-06.log",
             "hash": "14dc06960bd227effa88938e2182ebc17786fefafd2a405093aec61232cce631"
+        },
+        {
+            "date": 1675785779433,
+            "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/dist/logs/error/2023-02-07.log",
+            "hash": "e1e2f26285d383c3d691ac624f1c1e4a2f9c80d5c07d078948e16e714178db26"
         }
     ],
     "hashType": "sha256"

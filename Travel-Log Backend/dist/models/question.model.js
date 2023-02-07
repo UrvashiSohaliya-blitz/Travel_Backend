@@ -26,6 +26,9 @@ const questionSchema = new _mongoose.Schema({
         type: _mongoose.Schema.Types.ObjectId,
         ref: 'blog',
         required: true
+    },
+    answer: {
+        type: String
     }
 }, {
     timestamps: true

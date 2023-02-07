@@ -22,6 +22,7 @@ let questionRoute = class questionRoute {
         this.router.get(`${this.path}/:id`, this.questionController.getQuestionbyId);
         this.router.delete(`${this.path}/:id`, this.questionController.deleteQuestion);
         this.router.patch(`${this.path}/:id`, this.questionController.updateQuestionById);
+        this.router.post(`${this.path}/answer/:id`, this.questionController.addAnswer);
     }
     constructor(){
         this.path = '/question';

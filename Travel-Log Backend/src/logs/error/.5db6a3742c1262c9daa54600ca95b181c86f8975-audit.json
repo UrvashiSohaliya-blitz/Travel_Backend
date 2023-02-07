@@ -14,6 +14,16 @@
             "date": 1675655774634,
             "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/2023-02-06.log",
             "hash": "096a76dc902d99b6068878543a00e0b6cef69fad6431eb77a3ada3681fb3a89c"
+        },
+        {
+            "date": 1675742299719,
+            "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/2023-02-07.log",
+            "hash": "3e857751558e51771061ea5e26dfc113aefccc09125d2c3128c63e5fc6fb4470"
+        },
+        {
+            "date": 1675796729057,
+            "name": "/home/abc/Desktop/sampleProject/Travel-Log Backend/src/logs/error/2023-02-08.log",
+            "hash": "807e90058a99c2ef10b90d9ca2fa2e63cc8318107c7ccc0994eb56d51ca6aea3"
         }
     ],
     "hashType": "sha256"
