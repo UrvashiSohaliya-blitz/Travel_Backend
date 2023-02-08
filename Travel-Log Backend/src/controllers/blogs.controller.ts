@@ -22,7 +22,7 @@ class blogController {
   };
   public getBlogs = async (req: Request, res: Response, next: NextFunction) => {
     const { page, limit, createdAt, user } = req.query;
-    const { userId } = req.headers;
+   
     let token = (req.headers.authorization.trim().split(' '));
    
     try {
@@ -64,6 +64,18 @@ class blogController {
               const deleteBlogData: Blog = await this.blogService.deleteBlog(blogId);
 
       res.status(200).json({ data: deleteBlogData, message: 'deleted' }); 
+
+        } catch (error) {
+            next(error);
+        }
+
+    }
+  public findDeletedBlogs = async (req: Request, res: Response, next: NextFunction) => {
+        try {
+            let token = (req.headers.authorization.trim().split(' '));
+              const deleteBlogs:Blog[] = await this.blogService.findDeletedBlogs(token[1]);
+
+      res.status(200).json({ data: deleteBlogs, message: 'Deleted Blogs' }); 
 
         } catch (error) {
             next(error);

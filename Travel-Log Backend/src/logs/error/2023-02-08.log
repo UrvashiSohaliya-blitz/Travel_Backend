@@ -45,3 +45,92 @@ TSError: ⨯ Unable to compile TypeScript:
 2023-02-08 11:50:37 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
 2023-02-08 14:08:57 error: [GET] /blogs >> StatusCode:: 500, Message:: Can't use $not
 2023-02-08 14:10:10 error: [GET] /blogs >> StatusCode:: 500, Message:: Can't use $not
+2023-02-08 14:18:29 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-08 14:49:19 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:49:20 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:50:22 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:50:22 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:50:58 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:50:58 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:02 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:02 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:04 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:04 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:06 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:06 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:08 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:08 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:12 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:13 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:19 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:19 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:24 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:51:24 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:52:03 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:52:03 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:52:24 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:52:24 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:52:43 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:52:55 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:52:55 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 14:55:02 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:55:02 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:55:06 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:55:06 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:57:03 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:57:03 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:57:10 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:57:10 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:57:41 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:57:41 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:57:51 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 14:57:52 error: [GET] /blogs/63e340bbb3c8d04217311878 >> StatusCode:: 409, Message:: Blog doesn't exist
+2023-02-08 15:39:37 error: uncaughtException: Unexpected token 'const'
+/home/abc/Desktop/sampleProject/Travel-Log Backend/src/services/blogs.service.ts:63
+            const deletedBlogs = await this.blogs.find({ userId: userId, isDeleted: true });
+            ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:74:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1141:20)
+    at Module._compile (node:internal/modules/cjs/loader:1182:27)
+    at Module.m._compile (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/abc/Desktop/sampleProject/Travel-Log Backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-08 15:41:14 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)
+2023-02-08 15:53:36 error: [DELETE] /blogs/trash >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "trash" (type string) at path "_id" for model "blog"
+2023-02-08 15:53:52 error: [DELETE] /blogs/trash >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "trash" (type string) at path "_id" for model "blog"
+2023-02-08 15:54:14 error: [GET] /blogs/trash >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "trash" (type string) at path "_id" for model "blog"
+2023-02-08 16:08:50 error: [POST] /login >> StatusCode:: 409, Message:: This email arti@gmail.com was not found
+2023-02-08 16:08:52 error: [POST] /login >> StatusCode:: 409, Message:: This email arti@gmail.com was not found
+2023-02-08 16:37:34 error: [GET] /blogs >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'limit')
+2023-02-08 16:38:26 error: uncaughtException: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+Error: querySrv ESERVFAIL _mongodb._tcp.cluster0.x1jnvd2.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)
+2023-02-08 16:55:42 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-08 16:56:02 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-08 16:56:34 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-08 17:10:00 error: [POST] /login >> StatusCode:: 409, Message:: This email arti@gmail.com was not found
+2023-02-08 17:10:02 error: [POST] /login >> StatusCode:: 409, Message:: This email arti@gmail.com was not found
+2023-02-08 17:10:06 error: [POST] /login >> StatusCode:: 409, Message:: This email arti@gmail.com was not found
+2023-02-08 17:10:14 error: [POST] /login >> StatusCode:: 409, Message:: This email arti@gmail.com was not found
+2023-02-08 17:10:58 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "null" (type string) at path "userId" for model "blog"
+2023-02-08 17:10:58 error: [GET] /blogs/trash >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "null" (type string) at path "userId" for model "blog"
+2023-02-08 17:13:24 error: [POST] /login >> StatusCode:: 409, Message:: This email arti@gmail.com was not found
+2023-02-08 17:14:06 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-08 17:14:24 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-08 17:18:06 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-08 17:18:16 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-08 17:18:28 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-08 17:18:41 error: [POST] /blogs/create >> StatusCode:: 413, Message:: request entity too large
+2023-02-08 17:22:29 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "null" (type string) at path "userId" for model "blog"
+2023-02-08 17:29:16 error: [GET] /blogs >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "null" (type string) at path "userId" for model "blog"
+2023-02-08 17:58:42 error: [GET] /blogs/trash >> StatusCode:: 401, Message:: Wrong authentication token
+2023-02-08 17:58:51 error: [GET] /blogs/trash >> StatusCode:: 401, Message:: Wrong authentication token
+2023-02-08 17:59:42 error: [GET] /blogs/trash >> StatusCode:: 401, Message:: Wrong authentication token

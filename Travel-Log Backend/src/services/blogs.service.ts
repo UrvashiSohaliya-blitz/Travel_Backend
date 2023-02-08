@@ -16,9 +16,10 @@ class BlogService {
    
     return data;
     } else {
-      console.log('/..............token', token);
-       const data: Blog[] = await this.blogs.find({isDeleted:false , userId : {$ne:token}}).sort({createdAt:createdAt}).skip(page * limit)
-      .limit(limit);
+    
+      const data: Blog[] = await this.blogs.find({ isDeleted: false, userId: { $ne: token } }).sort({ createdAt: createdAt }).skip(page * limit)
+        .limit(limit);
+   
    
     return data;
     }
@@ -36,12 +37,12 @@ class BlogService {
   }
 
   public async findBlogById(blogId: string): Promise<Blog> {
-    if (isEmpty(blogId)) throw new HttpException(400, "UserId is empty");
+    if (isEmpty(blogId)) throw new HttpException(400, "blogId is empty");
 
-    const findUser: Blog = await this.blogs.findOne({ _id: blogId ,isDeleted:false});
-    if (!findUser) throw new HttpException(409, "User doesn't exist");
+    const findBlog: Blog = await this.blogs.findOne({ _id: blogId });
+    if (!findBlog) throw new HttpException(409, "Blog doesn't exist");
 
-    return findUser;
+    return findBlog;
   }
 
   public async createBlog(blogData: CreateBlogDto): Promise<Blog> {
@@ -72,6 +73,16 @@ class BlogService {
 
     return deleteBlogById;
   }
+
+  public async findDeletedBlogs(userId: string): Promise<Blog[]> {
+    if(!userId) throw new HttpException(409, "userId not provided");
+    const deletedBlogs: Blog[] = await this.blogs.find({ userId: userId, isDeleted: true });
+    return deletedBlogs;
+
+  
 }
+}
+
+
 
 export default BlogService;

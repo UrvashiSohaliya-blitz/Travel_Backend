@@ -15,11 +15,13 @@ class blogRoute implements Routes {
   }
 
   private initializeRoutes() {
-      this.router.post(`${this.path}/create`, this.BlogController.createBlog);
-      this.router.get(`${this.path}`, this.BlogController.getBlogs);
-      this.router.get(`${this.path}/:id`, this.BlogController.getBlogbyId);
-      this.router.delete(`${this.path}/:id`, this.BlogController.deleteBlog);
-      this.router.patch(`${this.path}/:id`, this.BlogController.updateBlogById);
+    this.router.post(`${this.path}/create`, authMiddleware,this.BlogController.createBlog);
+    this.router.get(`${this.path}/trash`,authMiddleware, this.BlogController.findDeletedBlogs);
+      this.router.get(`${this.path}`, authMiddleware,this.BlogController.getBlogs);
+      this.router.get(`${this.path}/:id`,authMiddleware, this.BlogController.getBlogbyId);
+      this.router.delete(`${this.path}/:id`,authMiddleware, this.BlogController.deleteBlog);
+    this.router.patch(`${this.path}/:id`,authMiddleware, this.BlogController.updateBlogById);
+    
     
   }
 }
