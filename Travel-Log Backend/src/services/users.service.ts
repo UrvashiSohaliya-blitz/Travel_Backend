@@ -54,7 +54,7 @@ class UserService {
   }
 
   public async deleteUser(userId: string): Promise<User> {
-    const deleteUserById: User = await this.users.findByIdAndDelete(userId);
+    const deleteUserById: User = await this.users.findByIdAndUpdate(userId,{isDeleted:true});
     if (!deleteUserById) throw new HttpException(409, "User doesn't exist");
 
     return deleteUserById;

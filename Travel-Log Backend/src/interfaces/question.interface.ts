@@ -4,5 +4,6 @@ export interface Question {
     blogId: String,
     question: String,
     blogUser: String,
-    answer:String
+    answer: String,
+    isDeleted:Boolean
     }

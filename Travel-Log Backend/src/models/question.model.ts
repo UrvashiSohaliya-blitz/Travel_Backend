@@ -7,7 +7,8 @@ const questionSchema: Schema = new Schema({
     blogUser:{type: Schema.Types.ObjectId, ref: 'user', required: true },
     question: { type: String, required: true },
     blogId: { type: Schema.Types.ObjectId, ref: 'blog', required: true },
-    answer:{ type: String},
+    answer: { type: String },
+    isDeleted:{type:Boolean, default: false}
     
 
 },{timestamps: true});

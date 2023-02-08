@@ -11,24 +11,24 @@ class BlogService {
   
     if (user!== "undefined" && user) {
       
-       const data: Blog[] = await this.blogs.find({userId:user}).sort({createdAt:createdAt}).skip(page * limit)
+       const data: Blog[] = await this.blogs.find({userId:user,isDeleted:false}).sort({createdAt:createdAt}).skip(page * limit)
       .limit(limit);
-    
+   
     return data;
     } else {
-       const data: Blog[] = await this.blogs.find().sort({createdAt:createdAt}).skip(page * limit)
+       const data: Blog[] = await this.blogs.find({isDeleted:false}).sort({createdAt:createdAt}).skip(page * limit)
       .limit(limit);
-    
+   
     return data;
     }
    
   }
   public async findAllBlogLength(limit: number, user: string) {
     if (user !== 'undefined' && user) {
-        const length: Blog[] = await this.blogs.find({userId:user});
+        const length: Blog[] = await this.blogs.find({userId:user , isDeleted:false});
     return Math.ceil(length.length/limit);
     } else {
-      const length: Blog[] = await this.blogs.find();
+      const length: Blog[] = await this.blogs.find({isDeleted:false});
     return Math.ceil(length.length/limit);
     }
     
@@ -37,7 +37,7 @@ class BlogService {
   public async findBlogById(blogId: string): Promise<Blog> {
     if (isEmpty(blogId)) throw new HttpException(400, "UserId is empty");
 
-    const findUser: Blog = await this.blogs.findOne({ _id: blogId });
+    const findUser: Blog = await this.blogs.findOne({ _id: blogId ,isDeleted:false});
     if (!findUser) throw new HttpException(409, "User doesn't exist");
 
     return findUser;
@@ -56,7 +56,7 @@ class BlogService {
   }
  public async updateBlog(blogId:string,data:any ): Promise<Blog> {
    
-   const updateBlogById = await this.blogs.findByIdAndUpdate({ _id: blogId }, data);
+   const updateBlogById = await this.blogs.findByIdAndUpdate({ _id: blogId ,isDeleted:false}, data);
     if (!updateBlogById) throw new HttpException(409, "Blog doesn't exist");
    return updateBlogById;
 
@@ -66,7 +66,7 @@ class BlogService {
   }
   
   public async deleteBlog(blogId: string): Promise<Blog> {
-    const deleteBlogById: Blog = await this.blogs.findByIdAndDelete(blogId);
+    const deleteBlogById: Blog = await this.blogs.findByIdAndUpdate(blogId,{ isDeleted:true});
     if (!deleteBlogById) throw new HttpException(409, "Blog doesn't exist");
 
     return deleteBlogById;

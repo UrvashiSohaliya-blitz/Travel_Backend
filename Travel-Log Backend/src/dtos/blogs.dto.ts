@@ -5,7 +5,7 @@ export class CreateBlogDto {
   public location: string;
   public description: string;
   public tags: string[];
-  public journyDate: {
+  public journeyDate: {
         startDate: string;
         endDate: string;
   }
@@ -14,6 +14,7 @@ export class CreateBlogDto {
   public placesToVisit: string[];
   public heritages: Array<String>;
   public travelRate: Number;
-  public saftyRate: Number;
-  public allowQustions: Boolean;
+  public safetyRate: Number;
+  public allowQuestions: Boolean;
+  public isDeleted:Boolean;
     }

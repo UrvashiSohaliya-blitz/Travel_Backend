@@ -18,7 +18,8 @@ const userSchema: Schema = new Schema({
   age: {
      type: Number,
     required: true,
-  }
+  },
+  isDeleted:{type:Boolean, default: false}
 
 });
 

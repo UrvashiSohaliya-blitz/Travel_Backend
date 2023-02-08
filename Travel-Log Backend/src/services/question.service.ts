@@ -19,14 +19,14 @@ class QuestionService {
     public async findQuestionByBlogId(blogId: String): Promise<Question[]>{
         if (isEmpty(blogId)) throw new HttpException(400, "blogId is required");
 
-        const data:Question[] = await this.questions.find({ blogId: blogId }).sort({createdAt:-1});
+        const data:Question[] = await this.questions.find({ blogId: blogId ,isDeleted:false}).sort({createdAt:-1});
         return data;
 
     }
     public async findQuestionByUserId(userId: String): Promise<Question[]>{
         if (isEmpty(userId)) throw new HttpException(400, "userId is required");
        
-        const data:Question[] = await this.questions.find({ userId: userId }).sort({createdAt:-1});
+        const data:Question[] = await this.questions.find({ userId: userId ,isDeleted:false}).sort({createdAt:-1});
       
         return data;
 
@@ -34,7 +34,7 @@ class QuestionService {
    public async findQuestionByblogUser(userId: String): Promise<Question[]>{
         if (isEmpty(userId)) throw new HttpException(400, "userId is required");
        
-        const data:Question[] = await this.questions.find({ blogUser: userId }).sort({createdAt:-1});
+        const data:Question[] = await this.questions.find({ blogUser: userId,isDeleted:false }).sort({createdAt:-1});
       
         return data;
 
@@ -42,7 +42,7 @@ class QuestionService {
     public async findQuestionById(id: String): Promise<Question>{
         if (isEmpty(id)) throw new HttpException(400, "id is required");
 
-        const data:Question = await this.questions.findOne({ _id: id });
+        const data:Question = await this.questions.findOne({ _id: id,isDeleted:false });
         return data;
 
     }
@@ -50,7 +50,7 @@ class QuestionService {
        if (isEmpty(id)) throw new HttpException(400, "id is required");
        else if (isEmpty(answer))throw new HttpException(400, "answer is required");
        else {
-        const data:Question = await this.questions.findOneAndUpdate({ _id: id },{answer:answer});
+        const data:Question = await this.questions.findOneAndUpdate({ _id: id,isDeleted:false },{answer:answer});
         return data; 
        }
 
@@ -59,7 +59,7 @@ class QuestionService {
     }
  public async updateQuestion(questionId:string,question:any ): Promise<Question> {
    if (isEmpty(questionId)) throw new HttpException(400, "id is required");
-   const updateQuestionById = await this.questions.findByIdAndUpdate({ _id: questionId }, {question:question});
+   const updateQuestionById = await this.questions.findByIdAndUpdate({ _id: questionId ,isDeleted:false}, {question:question});
     if (!updateQuestionById) throw new HttpException(409, "Question doesn't exist");
    return updateQuestionById;
 
@@ -69,7 +69,7 @@ class QuestionService {
   }
   
   public async deleteQuestion(questionId: string): Promise<Question> {
-    const deleteQuestionById: Question = await this.questions.findByIdAndDelete(questionId);
+    const deleteQuestionById: Question = await this.questions.findByIdAndUpdate(questionId,{ isDeleted:true});
     if (!deleteQuestionById) throw new HttpException(409, "Question doesn't exist");
 
     return deleteQuestionById;

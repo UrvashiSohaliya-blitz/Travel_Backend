@@ -5,5 +5,6 @@ export class CreateQuestionDto {
   public question: string;
   public blogUser: string;
   public answer: string;
+  public isDeleted: Boolean;
     
 }

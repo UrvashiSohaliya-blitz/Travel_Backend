@@ -272,3 +272,919 @@
 2023-02-08 00:37:37 info: ======= ENV: development =======
 2023-02-08 00:37:37 info: 🚀 App listening on the port 3000
 2023-02-08 00:37:37 info: =================================
+2023-02-08 00:39:42 info: =================================
+2023-02-08 10:10:08 info: =================================
+2023-02-08 10:10:08 info: ======= ENV: development =======
+2023-02-08 10:10:08 info: 🚀 App listening on the port 3000
+2023-02-08 10:10:08 info: =================================
+2023-02-08 10:11:32 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 624.901 ms - -[0m
+2023-02-08 10:11:43 info: [0mOPTIONS /login [32m204[0m 1.094 ms - 0[0m
+2023-02-08 10:11:44 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-08 10:11:44 info: [0mPOST /login [33m409[0m 300.348 ms - 38[0m
+2023-02-08 10:11:45 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-08 10:11:45 info: [0mPOST /login [33m409[0m 215.086 ms - 38[0m
+2023-02-08 10:11:58 info: [0mOPTIONS /login [32m204[0m 0.427 ms - 0[0m
+2023-02-08 10:11:58 info: [0mPOST /login [32m200[0m 226.384 ms - 197[0m
+2023-02-08 10:12:03 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 70.158 ms - -[0m
+2023-02-08 10:12:03 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 72.083 ms - -[0m
+2023-02-08 10:12:03 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 98.018 ms - -[0m
+2023-02-08 10:12:04 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 56.376 ms - -[0m
+2023-02-08 10:12:04 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 796.485 ms - -[0m
+2023-02-08 10:13:05 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 65.081 ms - -[0m
+2023-02-08 10:13:05 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 52.311 ms - -[0m
+2023-02-08 10:13:05 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [32m200[0m 50.795 ms - 423[0m
+2023-02-08 10:13:06 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 415.767 ms - -[0m
+2023-02-08 10:13:06 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 45.444 ms - -[0m
+2023-02-08 10:13:06 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 64.678 ms - -[0m
+2023-02-08 10:13:06 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 55.352 ms - -[0m
+2023-02-08 10:13:06 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 66.980 ms - -[0m
+2023-02-08 10:13:12 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 58.321 ms - -[0m
+2023-02-08 10:13:13 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 125.652 ms - -[0m
+2023-02-08 10:13:13 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 255.953 ms - -[0m
+2023-02-08 10:13:13 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 52.141 ms - -[0m
+2023-02-08 10:13:16 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 74.732 ms - -[0m
+2023-02-08 10:13:17 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 44.101 ms - -[0m
+2023-02-08 10:13:17 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 62.341 ms - -[0m
+2023-02-08 10:13:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 74.823 ms - -[0m
+2023-02-08 10:13:18 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 56.690 ms - -[0m
+2023-02-08 10:13:18 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 389.594 ms - -[0m
+2023-02-08 10:13:26 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 57.974 ms - -[0m
+2023-02-08 10:13:28 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 59.698 ms - -[0m
+2023-02-08 10:13:28 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 184.424 ms - -[0m
+2023-02-08 10:13:28 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 49.963 ms - -[0m
+2023-02-08 10:15:13 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 121.310 ms - -[0m
+2023-02-08 10:15:13 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 140.436 ms - -[0m
+2023-02-08 10:15:13 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 150.178 ms - -[0m
+2023-02-08 10:15:13 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 81.968 ms - -[0m
+2023-02-08 10:15:13 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 93.569 ms - -[0m
+2023-02-08 10:15:14 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 582.594 ms - -[0m
+2023-02-08 10:15:14 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 715.252 ms - -[0m
+2023-02-08 10:15:14 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 725.702 ms - -[0m
+2023-02-08 10:15:16 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 84.008 ms - -[0m
+2023-02-08 10:15:16 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 270.511 ms - -[0m
+2023-02-08 10:15:16 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 64.820 ms - -[0m
+2023-02-08 10:15:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 93.654 ms - -[0m
+2023-02-08 10:15:17 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 84.523 ms - -[0m
+2023-02-08 10:15:17 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 96.026 ms - -[0m
+2023-02-08 10:15:18 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 95.088 ms - -[0m
+2023-02-08 10:15:18 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 380.397 ms - -[0m
+2023-02-08 10:15:19 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 53.294 ms - -[0m
+2023-02-08 10:15:19 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 172.383 ms - -[0m
+2023-02-08 10:15:20 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 62.426 ms - -[0m
+2023-02-08 10:15:26 info: [0mOPTIONS /question/answer/63e296593d77dedd6449b4ad [32m204[0m 0.227 ms - 0[0m
+2023-02-08 10:15:26 info: [0mPOST /question/answer/63e296593d77dedd6449b4ad [32m200[0m 101.839 ms - 423[0m
+2023-02-08 10:15:26 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [32m200[0m 59.171 ms - 423[0m
+2023-02-08 10:15:28 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 62.049 ms - -[0m
+2023-02-08 10:15:29 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 82.306 ms - -[0m
+2023-02-08 10:15:29 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 169.539 ms - -[0m
+2023-02-08 10:15:29 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 67.660 ms - -[0m
+2023-02-08 10:15:36 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 53.034 ms - -[0m
+2023-02-08 10:15:36 info: [0mGET /question/blog/63e295833d77dedd6449b47a [32m200[0m 60.813 ms - 423[0m
+2023-02-08 10:15:36 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 72.680 ms - -[0m
+2023-02-08 10:15:36 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 65.743 ms - -[0m
+2023-02-08 10:15:36 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 356.899 ms - -[0m
+2023-02-08 10:15:37 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 67.446 ms - -[0m
+2023-02-08 10:15:37 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 174.024 ms - -[0m
+2023-02-08 10:15:37 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 57.936 ms - -[0m
+2023-02-08 10:15:40 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 50.830 ms - -[0m
+2023-02-08 10:15:41 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 80.766 ms - -[0m
+2023-02-08 10:15:41 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 176.702 ms - -[0m
+2023-02-08 10:15:41 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 53.820 ms - -[0m
+2023-02-08 10:15:43 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 72.470 ms - -[0m
+2023-02-08 10:15:43 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 91.758 ms - -[0m
+2023-02-08 10:15:43 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 82.545 ms - -[0m
+2023-02-08 10:15:43 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 68.581 ms - -[0m
+2023-02-08 10:15:43 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 359.655 ms - -[0m
+2023-02-08 10:15:44 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 65.849 ms - -[0m
+2023-02-08 10:15:44 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 164.457 ms - -[0m
+2023-02-08 10:15:45 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 44.318 ms - -[0m
+2023-02-08 10:16:03 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 59.554 ms - -[0m
+2023-02-08 10:16:03 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 67.122 ms - -[0m
+2023-02-08 10:16:03 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 64.079 ms - -[0m
+2023-02-08 10:16:03 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 91.821 ms - -[0m
+2023-02-08 10:16:04 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 369.659 ms - -[0m
+2023-02-08 10:16:49 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 164.161 ms - -[0m
+2023-02-08 10:16:49 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 71.118 ms - -[0m
+2023-02-08 10:17:04 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 57.313 ms - -[0m
+2023-02-08 10:17:04 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 63.054 ms - -[0m
+2023-02-08 10:17:04 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 86.314 ms - -[0m
+2023-02-08 10:17:04 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 51.573 ms - -[0m
+2023-02-08 10:17:04 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 317.846 ms - -[0m
+2023-02-08 10:22:05 info: [0mGET /blogs?page=0&limit=6&createdAt=1 [32m200[0m 512.644 ms - -[0m
+2023-02-08 10:22:08 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 434.151 ms - -[0m
+2023-02-08 10:22:14 info: [0mGET /blogs?page=0&limit=6&createdAt=1 [36m304[0m 612.461 ms - -[0m
+2023-02-08 10:28:57 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 114.538 ms - -[0m
+2023-02-08 10:28:57 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 112.205 ms - -[0m
+2023-02-08 10:28:57 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 93.164 ms - -[0m
+2023-02-08 10:28:57 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 58.829 ms - -[0m
+2023-02-08 10:28:57 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 86.781 ms - -[0m
+2023-02-08 10:28:58 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=1 [32m200[0m 436.994 ms - -[0m
+2023-02-08 10:28:58 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 517.423 ms - -[0m
+2023-02-08 10:28:58 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 573.142 ms - -[0m
+2023-02-08 10:28:59 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 74.407 ms - -[0m
+2023-02-08 10:28:59 info: [0mGET /blogs/63e295833d77dedd6449b47a [36m304[0m 144.740 ms - -[0m
+2023-02-08 10:28:59 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 41.216 ms - -[0m
+2023-02-08 10:29:01 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 178.111 ms - -[0m
+2023-02-08 10:29:02 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 116.128 ms - -[0m
+2023-02-08 10:29:02 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 114.663 ms - -[0m
+2023-02-08 10:29:02 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 125.037 ms - -[0m
+2023-02-08 10:29:02 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 67.271 ms - -[0m
+2023-02-08 10:29:02 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=1 [36m304[0m 510.997 ms - -[0m
+2023-02-08 10:29:08 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 55.425 ms - -[0m
+2023-02-08 10:29:08 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 48.112 ms - -[0m
+2023-02-08 10:29:08 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 59.247 ms - -[0m
+2023-02-08 10:29:08 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 46.856 ms - -[0m
+2023-02-08 10:29:08 info: [0mGET /blogs?page=0&limit=6&createdAt=1 [36m304[0m 579.400 ms - -[0m
+2023-02-08 10:30:18 info: [0mOPTIONS /blogs/create [32m204[0m 0.352 ms - 0[0m
+2023-02-08 10:30:19 info: [0mPOST /blogs/create [32m201[0m 291.448 ms - -[0m
+2023-02-08 10:30:19 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 560.117 ms - -[0m
+2023-02-08 10:30:24 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [32m200[0m 53.113 ms - 37[0m
+2023-02-08 10:30:24 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 60.921 ms - -[0m
+2023-02-08 10:30:24 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 51.722 ms - -[0m
+2023-02-08 10:30:24 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 76.518 ms - -[0m
+2023-02-08 10:30:24 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 65.733 ms - -[0m
+2023-02-08 10:30:24 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 129.636 ms - -[0m
+2023-02-08 10:30:25 info: [0mGET /blogs?page=0&limit=6&createdAt=1 [32m200[0m 487.754 ms - -[0m
+2023-02-08 10:31:06 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1058.091 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 66.548 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 66.633 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 45.746 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 53.717 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 64.546 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 77.094 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [32m200[0m 410.943 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 555.481 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [36m304[0m 47.660 ms - -[0m
+2023-02-08 10:31:08 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 61.631 ms - -[0m
+2023-02-08 10:32:07 info: [0mOPTIONS /blogs/create [32m204[0m 0.392 ms - 0[0m
+2023-02-08 10:32:07 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "Legal Nomads" }
+2023-02-08 10:32:07 info: [0mPOST /blogs/create [31m500[0m 309.598 ms - 115[0m
+2023-02-08 10:32:13 info: [0mOPTIONS /blogs/create [32m204[0m 0.345 ms - 0[0m
+2023-02-08 10:32:13 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "Legal Nomads" }
+2023-02-08 10:32:13 info: [0mPOST /blogs/create [31m500[0m 291.044 ms - 115[0m
+2023-02-08 10:32:34 info: [0mOPTIONS /blogs/create [32m204[0m 0.363 ms - 0[0m
+2023-02-08 10:32:34 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "Legal Nomads" }
+2023-02-08 10:32:34 info: [0mPOST /blogs/create [31m500[0m 282.908 ms - 115[0m
+2023-02-08 10:33:19 info: [0mOPTIONS /blogs/create [32m204[0m 0.256 ms - 0[0m
+2023-02-08 10:33:19 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "Legal Nomads" }
+2023-02-08 10:33:19 info: [0mPOST /blogs/create [31m500[0m 285.496 ms - 115[0m
+2023-02-08 10:33:26 info: [0mOPTIONS /blogs/create [32m204[0m 0.370 ms - 0[0m
+2023-02-08 10:33:26 info: [0mPOST /blogs/create [32m201[0m 288.357 ms - -[0m
+2023-02-08 10:33:27 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 568.446 ms - -[0m
+2023-02-08 10:33:29 info: [0mGET /question/blog/63e32d1eaccf16ecc6de6dd7 [32m200[0m 59.534 ms - 37[0m
+2023-02-08 10:33:29 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [36m304[0m 55.665 ms - -[0m
+2023-02-08 10:33:29 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 81.441 ms - -[0m
+2023-02-08 10:33:29 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 55.752 ms - -[0m
+2023-02-08 10:33:29 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 71.045 ms - -[0m
+2023-02-08 10:33:29 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 60.427 ms - -[0m
+2023-02-08 10:33:29 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 48.936 ms - -[0m
+2023-02-08 10:33:30 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 59.460 ms - -[0m
+2023-02-08 10:33:30 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 490.573 ms - -[0m
+2023-02-08 10:47:59 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1111.298 ms - -[0m
+2023-02-08 10:47:59 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 105.394 ms - -[0m
+2023-02-08 10:47:59 info: [0mGET /question/blog/63e32d1eaccf16ecc6de6dd7 [36m304[0m 106.145 ms - -[0m
+2023-02-08 10:47:59 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [36m304[0m 97.704 ms - -[0m
+2023-02-08 10:47:59 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 63.921 ms - -[0m
+2023-02-08 10:47:59 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 62.002 ms - -[0m
+2023-02-08 10:47:59 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 80.830 ms - -[0m
+2023-02-08 10:48:00 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 513.913 ms - -[0m
+2023-02-08 10:48:00 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 528.151 ms - -[0m
+2023-02-08 10:51:32 info: =================================
+2023-02-08 10:51:32 info: ======= ENV: development =======
+2023-02-08 10:51:32 info: 🚀 App listening on the port 3000
+2023-02-08 10:51:32 info: =================================
+2023-02-08 10:51:55 info: =================================
+2023-02-08 10:51:55 info: ======= ENV: development =======
+2023-02-08 10:51:55 info: 🚀 App listening on the port 3000
+2023-02-08 10:51:55 info: =================================
+2023-02-08 10:53:52 info: =================================
+2023-02-08 10:53:52 info: ======= ENV: development =======
+2023-02-08 10:53:52 info: 🚀 App listening on the port 3000
+2023-02-08 10:53:52 info: =================================
+2023-02-08 11:23:33 info: =================================
+2023-02-08 11:23:33 info: ======= ENV: development =======
+2023-02-08 11:23:33 info: 🚀 App listening on the port 3000
+2023-02-08 11:23:33 info: =================================
+2023-02-08 11:23:51 info: =================================
+2023-02-08 11:23:51 info: ======= ENV: development =======
+2023-02-08 11:23:51 info: 🚀 App listening on the port 3000
+2023-02-08 11:23:51 info: =================================
+2023-02-08 11:24:00 info: =================================
+2023-02-08 11:24:00 info: ======= ENV: development =======
+2023-02-08 11:24:00 info: 🚀 App listening on the port 3000
+2023-02-08 11:24:00 info: =================================
+2023-02-08 11:24:12 info: =================================
+2023-02-08 11:24:12 info: ======= ENV: development =======
+2023-02-08 11:24:12 info: 🚀 App listening on the port 3000
+2023-02-08 11:24:12 info: =================================
+2023-02-08 11:24:22 info: =================================
+2023-02-08 11:24:22 info: ======= ENV: development =======
+2023-02-08 11:24:22 info: 🚀 App listening on the port 3000
+2023-02-08 11:24:22 info: =================================
+2023-02-08 11:24:39 info: =================================
+2023-02-08 11:24:39 info: ======= ENV: development =======
+2023-02-08 11:24:39 info: 🚀 App listening on the port 3000
+2023-02-08 11:24:39 info: =================================
+2023-02-08 11:24:57 info: =================================
+2023-02-08 11:24:57 info: ======= ENV: development =======
+2023-02-08 11:24:57 info: 🚀 App listening on the port 3000
+2023-02-08 11:24:57 info: =================================
+2023-02-08 11:27:17 info: [0mGET /blogs/63e32d1eaccf16ecc6de6dd7 [32m200[0m 190.034 ms - -[0m
+2023-02-08 11:27:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 66.203 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /question/blog/63e32d1eaccf16ecc6de6dd7 [36m304[0m 72.224 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 98.113 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [36m304[0m 77.832 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 66.256 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 75.823 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 147.039 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 656.477 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 709.106 ms - -[0m
+2023-02-08 11:27:22 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 675.901 ms - -[0m
+2023-02-08 11:28:43 info: [0mOPTIONS /blogs/create [32m204[0m 0.534 ms - 0[0m
+2023-02-08 11:28:43 info: [0mPOST /blogs/create [32m201[0m 727.644 ms - -[0m
+2023-02-08 11:28:44 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 665.992 ms - -[0m
+2023-02-08 11:29:51 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 599.115 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /question/blog/63e33a13c3b01575883a6211 [32m200[0m 64.729 ms - 37[0m
+2023-02-08 11:30:20 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 80.282 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /question/blog/63e32d1eaccf16ecc6de6dd7 [36m304[0m 61.228 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [36m304[0m 61.273 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 74.793 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 43.695 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 49.347 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 53.829 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 118.857 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 620.369 ms - -[0m
+2023-02-08 11:30:20 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 676.395 ms - -[0m
+2023-02-08 11:30:36 info: [0mGET /blogs/63e33a13c3b01575883a6211 [32m200[0m 175.569 ms - -[0m
+2023-02-08 11:30:36 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 70.574 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 358.752 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [36m304[0m 351.218 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /question/blog/63e32d1eaccf16ecc6de6dd7 [36m304[0m 406.011 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 402.956 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 98.148 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 36.524 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 67.920 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /question/blog/63e33a13c3b01575883a6211 [36m304[0m 702.608 ms - -[0m
+2023-02-08 11:30:52 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 85.930 ms - -[0m
+2023-02-08 11:30:53 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 846.029 ms - -[0m
+2023-02-08 11:30:53 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 591.457 ms - -[0m
+2023-02-08 11:31:09 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 63.865 ms - -[0m
+2023-02-08 11:31:09 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 65.761 ms - -[0m
+2023-02-08 11:31:09 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 57.676 ms - -[0m
+2023-02-08 11:31:10 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [32m200[0m 589.506 ms - -[0m
+2023-02-08 11:31:10 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 65.232 ms - -[0m
+2023-02-08 11:31:10 info: [0mGET /question/blog/63e33a13c3b01575883a6211 [36m304[0m 60.994 ms - -[0m
+2023-02-08 11:31:10 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [36m304[0m 45.927 ms - -[0m
+2023-02-08 11:31:10 info: [0mGET /question/blog/63e32d1eaccf16ecc6de6dd7 [36m304[0m 63.204 ms - -[0m
+2023-02-08 11:31:10 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 75.103 ms - -[0m
+2023-02-08 11:31:10 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 56.097 ms - -[0m
+2023-02-08 11:31:11 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 46.864 ms - -[0m
+2023-02-08 11:31:11 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 50.972 ms - -[0m
+2023-02-08 11:31:11 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 412.807 ms - -[0m
+2023-02-08 11:31:11 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 424.923 ms - -[0m
+2023-02-08 11:31:14 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 73.157 ms - -[0m
+2023-02-08 11:31:15 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 82.271 ms - -[0m
+2023-02-08 11:31:15 info: [0mGET /blogs/63e295833d77dedd6449b47a [32m200[0m 180.111 ms - -[0m
+2023-02-08 11:31:15 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 52.695 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 40.456 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /question/blog/63e33a13c3b01575883a6211 [36m304[0m 37.871 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /question/blog/63e32d1eaccf16ecc6de6dd7 [36m304[0m 38.540 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /question/blog/63e32c62accf16ecc6de6db6 [36m304[0m 47.959 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /question/blog/63e295e23d77dedd6449b482 [36m304[0m 73.306 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 75.191 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /question/blog/63e295833d77dedd6449b47a [36m304[0m 92.284 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 64.051 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 78.384 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 67.612 ms - -[0m
+2023-02-08 11:31:17 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 1021.309 ms - -[0m
+2023-02-08 11:32:17 info: =================================
+2023-02-08 11:32:17 info: ======= ENV: development =======
+2023-02-08 11:32:17 info: 🚀 App listening on the port 3000
+2023-02-08 11:32:17 info: =================================
+2023-02-08 11:32:25 info: =================================
+2023-02-08 11:32:25 info: ======= ENV: development =======
+2023-02-08 11:32:25 info: 🚀 App listening on the port 3000
+2023-02-08 11:32:25 info: =================================
+2023-02-08 11:32:42 info: =================================
+2023-02-08 11:32:42 info: ======= ENV: development =======
+2023-02-08 11:32:42 info: 🚀 App listening on the port 3000
+2023-02-08 11:32:42 info: =================================
+2023-02-08 11:32:54 info: =================================
+2023-02-08 11:32:54 info: ======= ENV: development =======
+2023-02-08 11:32:54 info: 🚀 App listening on the port 3000
+2023-02-08 11:32:54 info: =================================
+2023-02-08 11:33:01 info: =================================
+2023-02-08 11:33:01 info: ======= ENV: development =======
+2023-02-08 11:33:01 info: 🚀 App listening on the port 3000
+2023-02-08 11:33:01 info: =================================
+2023-02-08 11:33:22 info: =================================
+2023-02-08 11:33:22 info: ======= ENV: development =======
+2023-02-08 11:33:22 info: 🚀 App listening on the port 3000
+2023-02-08 11:33:22 info: =================================
+2023-02-08 11:34:32 info: =================================
+2023-02-08 11:34:32 info: ======= ENV: development =======
+2023-02-08 11:34:32 info: 🚀 App listening on the port 3000
+2023-02-08 11:34:32 info: =================================
+2023-02-08 11:35:27 info: =================================
+2023-02-08 11:35:27 info: ======= ENV: development =======
+2023-02-08 11:35:27 info: 🚀 App listening on the port 3000
+2023-02-08 11:35:27 info: =================================
+2023-02-08 11:35:39 info: =================================
+2023-02-08 11:35:39 info: ======= ENV: development =======
+2023-02-08 11:35:39 info: 🚀 App listening on the port 3000
+2023-02-08 11:35:39 info: =================================
+2023-02-08 11:36:00 info: =================================
+2023-02-08 11:36:00 info: ======= ENV: development =======
+2023-02-08 11:36:00 info: 🚀 App listening on the port 3000
+2023-02-08 11:36:00 info: =================================
+2023-02-08 11:36:23 info: =================================
+2023-02-08 11:36:23 info: ======= ENV: development =======
+2023-02-08 11:36:23 info: 🚀 App listening on the port 3000
+2023-02-08 11:36:23 info: =================================
+2023-02-08 11:36:30 info: [0mOPTIONS /blogs/63e32d1eaccf16ecc6de6dd7 [32m204[0m 4.042 ms - 0[0m
+2023-02-08 11:36:30 info: [0mDELETE /blogs/63e32d1eaccf16ecc6de6dd7 [32m200[0m 251.809 ms - -[0m
+2023-02-08 11:36:31 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 313.149 ms - -[0m
+2023-02-08 11:36:39 info: [0mOPTIONS /blogs/63e33a13c3b01575883a6211 [32m204[0m 0.687 ms - 0[0m
+2023-02-08 11:36:40 info: [0mDELETE /blogs/63e33a13c3b01575883a6211 [32m200[0m 212.807 ms - -[0m
+2023-02-08 11:36:40 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 108.409 ms - 46[0m
+2023-02-08 11:37:22 info: [0mOPTIONS /blogs/63e33a13c3b01575883a6211 [32m204[0m 0.398 ms - 0[0m
+2023-02-08 11:37:22 info: [0mDELETE /blogs/63e33a13c3b01575883a6211 [32m200[0m 211.278 ms - -[0m
+2023-02-08 11:37:22 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 103.986 ms - -[0m
+2023-02-08 11:38:09 info: =================================
+2023-02-08 11:38:09 info: ======= ENV: development =======
+2023-02-08 11:38:09 info: 🚀 App listening on the port 3000
+2023-02-08 11:38:09 info: =================================
+2023-02-08 11:38:11 info: [0mOPTIONS /blogs/63e33a13c3b01575883a6211 [32m204[0m 3.746 ms - 0[0m
+2023-02-08 11:38:12 info: [0mDELETE /blogs/63e33a13c3b01575883a6211 [32m200[0m 283.225 ms - -[0m
+2023-02-08 11:38:12 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 124.444 ms - -[0m
+2023-02-08 11:38:21 info: [0mGET /users/63e294293d77dedd6449b460 [32m200[0m 64.615 ms - 217[0m
+2023-02-08 11:38:21 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 63.793 ms - -[0m
+2023-02-08 11:38:21 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [32m200[0m 119.860 ms - 46[0m
+2023-02-08 11:38:22 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [32m200[0m 333.350 ms - 441[0m
+2023-02-08 11:38:26 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 56.931 ms - -[0m
+2023-02-08 11:38:26 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 55.004 ms - -[0m
+2023-02-08 11:38:27 error: [GET] /blogs/63e295833d77dedd6449b47a >> StatusCode:: 409, Message:: User doesn't exist
+2023-02-08 11:38:27 info: [0mGET /blogs/63e295833d77dedd6449b47a [33m409[0m 75.830 ms - 32[0m
+2023-02-08 11:38:28 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 111.173 ms - -[0m
+2023-02-08 11:38:30 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 126.565 ms - -[0m
+2023-02-08 11:39:10 info: [0mOPTIONS /blogs/create [32m204[0m 0.273 ms - 0[0m
+2023-02-08 11:39:10 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "The build starts with the survey crew." }
+2023-02-08 11:39:11 info: [0mPOST /blogs/create [31m500[0m 872.258 ms - 141[0m
+2023-02-08 11:39:53 info: =================================
+2023-02-08 11:39:53 info: ======= ENV: development =======
+2023-02-08 11:39:53 info: 🚀 App listening on the port 3000
+2023-02-08 11:39:53 info: =================================
+2023-02-08 11:39:58 info: [0mOPTIONS /blogs/create [32m204[0m 3.169 ms - 0[0m
+2023-02-08 11:39:58 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "The build starts with the survey crew." }
+2023-02-08 11:39:58 info: [0mPOST /blogs/create [31m500[0m 616.226 ms - 141[0m
+2023-02-08 11:40:14 info: =================================
+2023-02-08 11:40:14 info: ======= ENV: development =======
+2023-02-08 11:40:14 info: 🚀 App listening on the port 3000
+2023-02-08 11:40:14 info: =================================
+2023-02-08 11:40:19 info: [0mOPTIONS /blogs/create [32m204[0m 3.296 ms - 0[0m
+2023-02-08 11:40:20 error: [POST] /blogs/create >> StatusCode:: 500, Message:: E11000 duplicate key error collection: test.blogs index: title_1 dup key: { title: "The build starts with the survey crew." }
+2023-02-08 11:40:20 info: [0mPOST /blogs/create [31m500[0m 721.276 ms - 141[0m
+2023-02-08 11:42:14 info: =================================
+2023-02-08 11:42:14 info: ======= ENV: development =======
+2023-02-08 11:42:14 info: 🚀 App listening on the port 3000
+2023-02-08 11:42:14 info: =================================
+2023-02-08 11:42:20 info: [0mOPTIONS /blogs/create [32m204[0m 2.507 ms - 0[0m
+2023-02-08 11:42:21 info: [0mPOST /blogs/create [32m201[0m 397.641 ms - -[0m
+2023-02-08 11:42:21 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 444.360 ms - -[0m
+2023-02-08 11:42:24 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [32m200[0m 53.753 ms - 37[0m
+2023-02-08 11:42:24 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 89.238 ms - -[0m
+2023-02-08 11:42:24 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 278.786 ms - -[0m
+2023-02-08 11:43:10 info: [0mOPTIONS /blogs/create [32m204[0m 0.361 ms - 0[0m
+2023-02-08 11:43:10 info: [0mPOST /blogs/create [32m201[0m 287.400 ms - -[0m
+2023-02-08 11:43:11 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 565.374 ms - -[0m
+2023-02-08 11:43:14 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 63.063 ms - -[0m
+2023-02-08 11:43:14 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [32m200[0m 71.138 ms - 37[0m
+2023-02-08 11:43:14 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 70.068 ms - -[0m
+2023-02-08 11:43:14 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 57.632 ms - -[0m
+2023-02-08 11:43:15 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 750.233 ms - -[0m
+2023-02-08 11:43:57 info: [0mOPTIONS /blogs/create [32m204[0m 0.287 ms - 0[0m
+2023-02-08 11:43:58 info: [0mPOST /blogs/create [32m201[0m 279.392 ms - -[0m
+2023-02-08 11:43:58 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 575.526 ms - -[0m
+2023-02-08 11:44:01 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 60.928 ms - -[0m
+2023-02-08 11:44:01 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 71.652 ms - -[0m
+2023-02-08 11:44:01 info: [0mGET /question/blog/63e33da5c64be0c341dbc0dd [32m200[0m 88.872 ms - 37[0m
+2023-02-08 11:44:01 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 83.913 ms - -[0m
+2023-02-08 11:44:01 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 55.252 ms - -[0m
+2023-02-08 11:44:01 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 74.154 ms - -[0m
+2023-02-08 11:44:02 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1113.764 ms - -[0m
+2023-02-08 11:44:05 info: [0mGET /blogs/63e33da5c64be0c341dbc0dd [32m200[0m 200.820 ms - -[0m
+2023-02-08 11:44:05 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 57.421 ms - -[0m
+2023-02-08 11:44:09 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 45.651 ms - -[0m
+2023-02-08 11:44:09 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 60.911 ms - -[0m
+2023-02-08 11:44:09 info: [0mGET /question/blog/63e33da5c64be0c341dbc0dd [36m304[0m 75.107 ms - -[0m
+2023-02-08 11:44:09 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 66.426 ms - -[0m
+2023-02-08 11:44:09 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 54.377 ms - -[0m
+2023-02-08 11:44:09 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 73.419 ms - -[0m
+2023-02-08 11:44:09 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 720.289 ms - -[0m
+2023-02-08 11:44:13 info: [0mOPTIONS /blogs/63e33da5c64be0c341dbc0dd [32m204[0m 0.172 ms - 0[0m
+2023-02-08 11:44:14 info: [0mDELETE /blogs/63e33da5c64be0c341dbc0dd [32m200[0m 203.307 ms - -[0m
+2023-02-08 11:44:14 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 644.773 ms - -[0m
+2023-02-08 11:45:07 info: =================================
+2023-02-08 11:45:07 info: ======= ENV: development =======
+2023-02-08 11:45:07 info: 🚀 App listening on the port 3000
+2023-02-08 11:45:07 info: =================================
+2023-02-08 11:46:04 info: =================================
+2023-02-08 11:46:04 info: ======= ENV: development =======
+2023-02-08 11:46:04 info: 🚀 App listening on the port 3000
+2023-02-08 11:46:04 info: =================================
+2023-02-08 11:46:36 info: =================================
+2023-02-08 11:46:36 info: ======= ENV: development =======
+2023-02-08 11:46:36 info: 🚀 App listening on the port 3000
+2023-02-08 11:46:36 info: =================================
+2023-02-08 11:46:44 info: =================================
+2023-02-08 11:46:44 info: ======= ENV: development =======
+2023-02-08 11:46:44 info: 🚀 App listening on the port 3000
+2023-02-08 11:46:44 info: =================================
+2023-02-08 11:47:19 info: =================================
+2023-02-08 11:47:19 info: ======= ENV: development =======
+2023-02-08 11:47:19 info: 🚀 App listening on the port 3000
+2023-02-08 11:47:19 info: =================================
+2023-02-08 11:47:35 info: =================================
+2023-02-08 11:47:35 info: ======= ENV: development =======
+2023-02-08 11:47:35 info: 🚀 App listening on the port 3000
+2023-02-08 11:47:35 info: =================================
+2023-02-08 11:47:54 info: =================================
+2023-02-08 11:47:54 info: ======= ENV: development =======
+2023-02-08 11:47:54 info: 🚀 App listening on the port 3000
+2023-02-08 11:47:54 info: =================================
+2023-02-08 11:48:45 info: =================================
+2023-02-08 11:48:45 info: ======= ENV: development =======
+2023-02-08 11:48:45 info: 🚀 App listening on the port 3000
+2023-02-08 11:48:45 info: =================================
+2023-02-08 11:49:11 info: =================================
+2023-02-08 11:49:11 info: ======= ENV: development =======
+2023-02-08 11:49:11 info: 🚀 App listening on the port 3000
+2023-02-08 11:49:11 info: =================================
+2023-02-08 11:49:47 info: =================================
+2023-02-08 11:49:47 info: ======= ENV: development =======
+2023-02-08 11:49:47 info: 🚀 App listening on the port 3000
+2023-02-08 11:49:47 info: =================================
+2023-02-08 11:50:01 info: [0mOPTIONS /blogs/63e33d76c64be0c341dbc0d3 [32m204[0m 4.683 ms - 0[0m
+2023-02-08 11:50:01 info: [0mPATCH /blogs/63e33d76c64be0c341dbc0d3 [32m200[0m 316.331 ms - -[0m
+2023-02-08 11:50:01 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 344.325 ms - -[0m
+2023-02-08 11:50:13 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 65.152 ms - -[0m
+2023-02-08 11:50:13 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 84.492 ms - -[0m
+2023-02-08 11:50:13 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [32m200[0m 378.205 ms - 37[0m
+2023-02-08 11:50:13 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [32m200[0m 580.137 ms - -[0m
+2023-02-08 11:50:14 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 45.773 ms - -[0m
+2023-02-08 11:50:14 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 57.816 ms - -[0m
+2023-02-08 11:50:14 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 48.524 ms - -[0m
+2023-02-08 11:50:14 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 69.831 ms - -[0m
+2023-02-08 11:50:17 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 59.882 ms - -[0m
+2023-02-08 11:50:17 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 69.000 ms - -[0m
+2023-02-08 11:50:19 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 60.382 ms - -[0m
+2023-02-08 11:50:19 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 54.132 ms - -[0m
+2023-02-08 11:50:19 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 48.384 ms - -[0m
+2023-02-08 11:50:19 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 202.002 ms - -[0m
+2023-02-08 11:50:19 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 571.283 ms - -[0m
+2023-02-08 11:50:27 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 57.599 ms - -[0m
+2023-02-08 11:50:27 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 68.638 ms - -[0m
+2023-02-08 11:50:27 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 75.370 ms - -[0m
+2023-02-08 11:50:27 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 56.671 ms - -[0m
+2023-02-08 11:50:27 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 491.481 ms - -[0m
+2023-02-08 11:50:36 info: [0mOPTIONS /login [32m204[0m 0.290 ms - 0[0m
+2023-02-08 11:50:37 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-02-08 11:50:37 info: [0mPOST /login [33m409[0m 237.810 ms - 38[0m
+2023-02-08 11:50:42 info: [0mOPTIONS /login [32m204[0m 0.232 ms - 0[0m
+2023-02-08 11:50:42 info: [0mPOST /login [32m200[0m 208.110 ms - 213[0m
+2023-02-08 11:50:48 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 377.239 ms - -[0m
+2023-02-08 11:50:48 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 388.197 ms - -[0m
+2023-02-08 11:50:48 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 396.188 ms - -[0m
+2023-02-08 11:50:48 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 55.669 ms - -[0m
+2023-02-08 11:50:48 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 700.305 ms - -[0m
+2023-02-08 11:51:06 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 94.826 ms - -[0m
+2023-02-08 11:51:06 info: [0mGET /users/63e296313d77dedd6449b4a5 [32m200[0m 94.046 ms - 215[0m
+2023-02-08 11:51:06 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 105.404 ms - -[0m
+2023-02-08 11:51:06 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 115.190 ms - -[0m
+2023-02-08 11:51:06 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 62.241 ms - -[0m
+2023-02-08 11:51:06 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 48.606 ms - -[0m
+2023-02-08 11:51:06 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [32m200[0m 445.258 ms - 37[0m
+2023-02-08 11:51:06 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 511.809 ms - -[0m
+2023-02-08 11:51:08 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 61.064 ms - -[0m
+2023-02-08 11:51:09 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 41.398 ms - -[0m
+2023-02-08 11:51:10 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 111.090 ms - -[0m
+2023-02-08 11:51:11 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 53.209 ms - -[0m
+2023-02-08 11:51:11 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 63.553 ms - -[0m
+2023-02-08 11:51:11 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 53.519 ms - -[0m
+2023-02-08 11:51:11 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 48.757 ms - -[0m
+2023-02-08 11:51:12 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 437.832 ms - -[0m
+2023-02-08 11:52:58 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 53.537 ms - -[0m
+2023-02-08 11:52:58 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 64.181 ms - -[0m
+2023-02-08 11:52:58 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 56.737 ms - -[0m
+2023-02-08 11:52:58 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 62.856 ms - -[0m
+2023-02-08 11:52:59 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 555.275 ms - -[0m
+2023-02-08 11:53:58 info: [0mOPTIONS /blogs/create [32m204[0m 0.538 ms - 0[0m
+2023-02-08 11:53:58 info: [0mPOST /blogs/create [32m201[0m 352.560 ms - -[0m
+2023-02-08 11:53:59 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 842.162 ms - -[0m
+2023-02-08 11:54:01 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 93.785 ms - -[0m
+2023-02-08 11:54:01 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [32m200[0m 126.627 ms - 37[0m
+2023-02-08 11:54:01 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 94.791 ms - -[0m
+2023-02-08 11:54:01 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 108.893 ms - -[0m
+2023-02-08 11:54:01 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 131.669 ms - -[0m
+2023-02-08 11:54:01 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 145.719 ms - -[0m
+2023-02-08 11:54:02 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 684.278 ms - -[0m
+2023-02-08 11:54:34 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 378.644 ms - -[0m
+2023-02-08 11:54:34 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 361.469 ms - -[0m
+2023-02-08 11:54:34 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 361.509 ms - -[0m
+2023-02-08 11:54:34 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 330.234 ms - -[0m
+2023-02-08 11:54:34 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 357.849 ms - -[0m
+2023-02-08 11:54:34 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 60.405 ms - -[0m
+2023-02-08 11:54:50 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 43.895 ms - -[0m
+2023-02-08 11:54:50 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 55.830 ms - -[0m
+2023-02-08 11:54:50 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 52.177 ms - -[0m
+2023-02-08 11:54:50 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 63.592 ms - -[0m
+2023-02-08 11:54:50 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 59.912 ms - -[0m
+2023-02-08 11:54:50 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 53.567 ms - -[0m
+2023-02-08 11:57:07 info: [0mOPTIONS /blogs/create [32m204[0m 0.376 ms - 0[0m
+2023-02-08 11:57:08 info: [0mPOST /blogs/create [32m201[0m 981.860 ms - -[0m
+2023-02-08 11:57:09 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [32m200[0m 1458.807 ms - -[0m
+2023-02-08 11:57:11 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 48.053 ms - -[0m
+2023-02-08 11:57:11 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 66.984 ms - -[0m
+2023-02-08 11:57:12 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [32m200[0m 690.742 ms - 37[0m
+2023-02-08 11:57:12 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 704.741 ms - -[0m
+2023-02-08 11:57:12 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 738.670 ms - -[0m
+2023-02-08 11:57:12 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 118.765 ms - -[0m
+2023-02-08 11:57:13 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1689.475 ms - -[0m
+2023-02-08 11:57:13 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 1715.086 ms - -[0m
+2023-02-08 11:57:13 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 1736.975 ms - -[0m
+2023-02-08 11:57:22 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 54.924 ms - -[0m
+2023-02-08 11:57:22 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 45.174 ms - -[0m
+2023-02-08 11:57:22 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 54.385 ms - -[0m
+2023-02-08 11:57:23 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [32m200[0m 684.897 ms - -[0m
+2023-02-08 11:57:23 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 62.969 ms - -[0m
+2023-02-08 11:57:23 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 56.879 ms - -[0m
+2023-02-08 11:57:24 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 69.231 ms - -[0m
+2023-02-08 11:57:24 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 54.552 ms - -[0m
+2023-02-08 11:57:27 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 73.147 ms - -[0m
+2023-02-08 11:57:27 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 93.413 ms - -[0m
+2023-02-08 11:57:27 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 50.952 ms - -[0m
+2023-02-08 11:57:27 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 50.256 ms - -[0m
+2023-02-08 11:57:27 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 59.007 ms - -[0m
+2023-02-08 11:57:27 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 45.139 ms - -[0m
+2023-02-08 11:57:27 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 41.881 ms - -[0m
+2023-02-08 11:57:28 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 637.221 ms - -[0m
+2023-02-08 11:57:28 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1107.235 ms - -[0m
+2023-02-08 11:57:35 info: [0mOPTIONS /login [32m204[0m 0.377 ms - 0[0m
+2023-02-08 11:57:35 info: [0mPOST /login [32m200[0m 235.884 ms - 215[0m
+2023-02-08 11:57:41 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 54.866 ms - -[0m
+2023-02-08 11:57:41 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 77.175 ms - -[0m
+2023-02-08 11:57:41 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 54.368 ms - -[0m
+2023-02-08 11:57:41 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 56.169 ms - -[0m
+2023-02-08 11:57:41 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 63.362 ms - -[0m
+2023-02-08 11:57:41 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 66.594 ms - -[0m
+2023-02-08 11:57:41 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 50.723 ms - -[0m
+2023-02-08 11:57:41 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 44.348 ms - -[0m
+2023-02-08 11:57:42 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1398.510 ms - -[0m
+2023-02-08 11:58:08 info: [0mOPTIONS /question/create [32m204[0m 0.198 ms - 0[0m
+2023-02-08 11:58:08 info: [0mPOST /question/create [32m201[0m 57.760 ms - 344[0m
+2023-02-08 11:58:08 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [32m200[0m 88.900 ms - 343[0m
+2023-02-08 11:58:09 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1637.937 ms - -[0m
+2023-02-08 11:58:10 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 69.623 ms - -[0m
+2023-02-08 11:58:16 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 54.495 ms - -[0m
+2023-02-08 11:58:16 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 49.949 ms - -[0m
+2023-02-08 11:58:16 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 53.362 ms - -[0m
+2023-02-08 11:58:16 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 68.189 ms - -[0m
+2023-02-08 11:58:16 info: [0mGET /question/user/63e294293d77dedd6449b460 [32m200[0m 58.126 ms - 343[0m
+2023-02-08 11:58:16 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 47.302 ms - -[0m
+2023-02-08 11:58:16 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 83.050 ms - -[0m
+2023-02-08 11:58:17 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 920.669 ms - -[0m
+2023-02-08 11:58:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 163.942 ms - -[0m
+2023-02-08 11:58:17 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 165.183 ms - -[0m
+2023-02-08 11:58:17 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 152.983 ms - -[0m
+2023-02-08 11:58:17 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 46.271 ms - -[0m
+2023-02-08 11:58:20 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 46.804 ms - -[0m
+2023-02-08 11:58:20 info: [0mGET /blogs/63e340bbb3c8d04217311878 [32m200[0m 211.870 ms - -[0m
+2023-02-08 11:58:22 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 138.277 ms - -[0m
+2023-02-08 11:58:22 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 143.080 ms - -[0m
+2023-02-08 11:58:22 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 166.211 ms - -[0m
+2023-02-08 11:58:22 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 72.670 ms - -[0m
+2023-02-08 11:58:22 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 779.550 ms - -[0m
+2023-02-08 11:58:27 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 56.729 ms - -[0m
+2023-02-08 11:58:28 info: [0mGET /blogs/63e340bbb3c8d04217311878 [36m304[0m 267.542 ms - -[0m
+2023-02-08 11:58:29 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 115.360 ms - -[0m
+2023-02-08 11:58:29 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 153.569 ms - -[0m
+2023-02-08 11:58:29 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 176.063 ms - -[0m
+2023-02-08 11:58:29 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 265.497 ms - -[0m
+2023-02-08 11:58:30 info: [0mGET /blogs?user=63e294293d77dedd6449b460&page=0&limit=6&createdAt=-1 [36m304[0m 1218.804 ms - -[0m
+2023-02-08 11:58:35 info: [0mGET /question/user/63e294293d77dedd6449b460 [36m304[0m 61.372 ms - -[0m
+2023-02-08 11:58:35 info: [0mGET /blogs/63e340bbb3c8d04217311878 [36m304[0m 187.450 ms - -[0m
+2023-02-08 11:58:41 info: [0mGET /question/askedtome/63e294293d77dedd6449b460 [36m304[0m 54.958 ms - -[0m
+2023-02-08 11:58:46 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 50.472 ms - -[0m
+2023-02-08 11:58:46 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 70.609 ms - -[0m
+2023-02-08 11:58:46 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 70.081 ms - -[0m
+2023-02-08 11:58:46 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 54.621 ms - -[0m
+2023-02-08 11:58:46 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 78.998 ms - -[0m
+2023-02-08 11:58:46 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 63.683 ms - -[0m
+2023-02-08 11:58:46 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 53.420 ms - -[0m
+2023-02-08 11:58:46 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 51.067 ms - -[0m
+2023-02-08 11:58:47 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1125.164 ms - -[0m
+2023-02-08 11:58:58 info: [0mOPTIONS /login [32m204[0m 0.206 ms - 0[0m
+2023-02-08 11:58:58 info: [0mPOST /login [32m200[0m 200.726 ms - 213[0m
+2023-02-08 11:59:03 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 69.887 ms - -[0m
+2023-02-08 11:59:03 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 81.688 ms - -[0m
+2023-02-08 11:59:03 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 67.324 ms - -[0m
+2023-02-08 11:59:03 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 75.993 ms - -[0m
+2023-02-08 11:59:03 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 96.229 ms - -[0m
+2023-02-08 11:59:04 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 52.042 ms - -[0m
+2023-02-08 11:59:04 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 58.560 ms - -[0m
+2023-02-08 11:59:04 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 78.527 ms - -[0m
+2023-02-08 11:59:04 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 716.387 ms - -[0m
+2023-02-08 11:59:07 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 74.354 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 46.463 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 55.071 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 52.811 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 50.496 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 41.432 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 47.966 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [32m200[0m 60.985 ms - 343[0m
+2023-02-08 11:59:13 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 412.239 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 51.761 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 42.419 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 53.212 ms - -[0m
+2023-02-08 11:59:13 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 60.043 ms - -[0m
+2023-02-08 11:59:16 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 58.983 ms - -[0m
+2023-02-08 11:59:19 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 58.666 ms - -[0m
+2023-02-08 11:59:19 info: [0mGET /blogs/63e340bbb3c8d04217311878 [36m304[0m 167.006 ms - -[0m
+2023-02-08 11:59:19 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 63.638 ms - -[0m
+2023-02-08 11:59:42 info: [0mOPTIONS /question/answer/63e340f8b3c8d042173118a4 [32m204[0m 0.208 ms - 0[0m
+2023-02-08 11:59:42 info: [0mPOST /question/answer/63e340f8b3c8d042173118a4 [32m200[0m 81.514 ms - 343[0m
+2023-02-08 11:59:42 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [32m200[0m 58.801 ms - 372[0m
+2023-02-08 11:59:47 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 50.685 ms - -[0m
+2023-02-08 11:59:47 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [32m200[0m 56.796 ms - 372[0m
+2023-02-08 11:59:47 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 55.469 ms - -[0m
+2023-02-08 11:59:47 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 58.182 ms - -[0m
+2023-02-08 11:59:48 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 418.706 ms - -[0m
+2023-02-08 11:59:55 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 100.638 ms - -[0m
+2023-02-08 11:59:56 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 75.364 ms - -[0m
+2023-02-08 11:59:56 info: [0mGET /blogs/63e340bbb3c8d04217311878 [36m304[0m 178.900 ms - -[0m
+2023-02-08 11:59:56 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 60.585 ms - -[0m
+2023-02-08 11:59:58 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 60.828 ms - -[0m
+2023-02-08 11:59:58 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 43.733 ms - -[0m
+2023-02-08 11:59:58 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 72.696 ms - -[0m
+2023-02-08 11:59:58 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 80.097 ms - -[0m
+2023-02-08 11:59:58 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 573.688 ms - -[0m
+2023-02-08 12:00:20 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 52.244 ms - -[0m
+2023-02-08 12:00:21 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 51.996 ms - -[0m
+2023-02-08 12:00:22 info: [0mGET /blogs/63e340bbb3c8d04217311878 [36m304[0m 171.587 ms - -[0m
+2023-02-08 12:00:22 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 54.235 ms - -[0m
+2023-02-08 12:00:22 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 62.352 ms - -[0m
+2023-02-08 12:00:23 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 57.553 ms - -[0m
+2023-02-08 12:00:23 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 84.564 ms - -[0m
+2023-02-08 12:00:23 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 96.701 ms - -[0m
+2023-02-08 12:00:23 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 95.074 ms - -[0m
+2023-02-08 12:00:24 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 440.973 ms - -[0m
+2023-02-08 12:00:42 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 56.778 ms - -[0m
+2023-02-08 12:00:43 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 65.249 ms - -[0m
+2023-02-08 12:00:43 info: [0mGET /blogs/63e340bbb3c8d04217311878 [36m304[0m 195.727 ms - -[0m
+2023-02-08 12:00:44 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 57.766 ms - -[0m
+2023-02-08 12:01:36 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 708.992 ms - -[0m
+2023-02-08 12:01:37 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 64.646 ms - -[0m
+2023-02-08 12:01:37 info: [0mGET /blogs/63e340bbb3c8d04217311878 [36m304[0m 535.054 ms - -[0m
+2023-02-08 12:01:37 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 53.168 ms - -[0m
+2023-02-08 12:01:38 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 229.376 ms - -[0m
+2023-02-08 12:01:38 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 98.266 ms - -[0m
+2023-02-08 12:01:38 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 744.578 ms - -[0m
+2023-02-08 12:01:38 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 751.460 ms - -[0m
+2023-02-08 12:01:38 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 761.514 ms - -[0m
+2023-02-08 12:01:42 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 63.499 ms - -[0m
+2023-02-08 12:01:42 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 71.247 ms - -[0m
+2023-02-08 12:01:42 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 88.870 ms - -[0m
+2023-02-08 12:01:42 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 67.573 ms - -[0m
+2023-02-08 12:01:42 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 46.016 ms - -[0m
+2023-02-08 12:01:42 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 42.022 ms - -[0m
+2023-02-08 12:01:43 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 747.532 ms - -[0m
+2023-02-08 12:01:43 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 783.965 ms - -[0m
+2023-02-08 12:01:44 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1386.803 ms - -[0m
+2023-02-08 12:01:49 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 88.144 ms - -[0m
+2023-02-08 12:02:08 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 70.253 ms - -[0m
+2023-02-08 12:02:39 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 79.725 ms - -[0m
+2023-02-08 12:02:43 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 51.155 ms - -[0m
+2023-02-08 12:02:43 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 40.628 ms - -[0m
+2023-02-08 12:02:43 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 64.623 ms - -[0m
+2023-02-08 12:02:43 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 40.717 ms - -[0m
+2023-02-08 12:02:43 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 51.082 ms - -[0m
+2023-02-08 12:02:43 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 106.000 ms - -[0m
+2023-02-08 12:02:43 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 173.823 ms - -[0m
+2023-02-08 12:02:44 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 904.205 ms - -[0m
+2023-02-08 12:03:06 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 78.016 ms - -[0m
+2023-02-08 12:03:07 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 58.783 ms - -[0m
+2023-02-08 12:03:07 info: [0mGET /blogs/63e340bbb3c8d04217311878 [36m304[0m 218.197 ms - -[0m
+2023-02-08 12:03:07 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 44.375 ms - -[0m
+2023-02-08 12:03:08 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 54.442 ms - -[0m
+2023-02-08 12:03:09 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 74.466 ms - -[0m
+2023-02-08 12:03:09 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 56.589 ms - -[0m
+2023-02-08 12:03:09 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 86.551 ms - -[0m
+2023-02-08 12:03:09 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 50.751 ms - -[0m
+2023-02-08 12:03:09 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 63.715 ms - -[0m
+2023-02-08 12:03:09 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 83.307 ms - -[0m
+2023-02-08 12:03:09 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 52.807 ms - -[0m
+2023-02-08 12:03:09 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 80.106 ms - -[0m
+2023-02-08 12:03:10 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 736.027 ms - -[0m
+2023-02-08 12:03:24 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 49.276 ms - -[0m
+2023-02-08 12:03:24 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 49.515 ms - -[0m
+2023-02-08 12:03:24 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 52.122 ms - -[0m
+2023-02-08 12:03:24 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 65.181 ms - -[0m
+2023-02-08 12:03:24 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 54.287 ms - -[0m
+2023-02-08 12:03:24 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 46.093 ms - -[0m
+2023-02-08 12:03:24 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 94.871 ms - -[0m
+2023-02-08 12:03:25 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 493.746 ms - -[0m
+2023-02-08 12:05:44 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 56.112 ms - -[0m
+2023-02-08 12:05:44 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 72.028 ms - -[0m
+2023-02-08 12:05:44 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 55.983 ms - -[0m
+2023-02-08 12:05:44 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 78.678 ms - -[0m
+2023-02-08 12:05:44 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 58.614 ms - -[0m
+2023-02-08 12:05:44 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 70.827 ms - -[0m
+2023-02-08 12:05:44 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 60.129 ms - -[0m
+2023-02-08 12:05:44 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 46.110 ms - -[0m
+2023-02-08 12:05:45 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 831.273 ms - -[0m
+2023-02-08 12:06:34 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 67.029 ms - -[0m
+2023-02-08 12:06:34 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 63.405 ms - -[0m
+2023-02-08 12:06:34 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 54.421 ms - -[0m
+2023-02-08 12:06:34 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 59.860 ms - -[0m
+2023-02-08 12:06:34 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 47.758 ms - -[0m
+2023-02-08 12:06:34 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 55.578 ms - -[0m
+2023-02-08 12:06:34 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 82.664 ms - -[0m
+2023-02-08 12:06:34 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 89.306 ms - -[0m
+2023-02-08 12:06:55 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 50.492 ms - -[0m
+2023-02-08 12:06:55 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 50.627 ms - -[0m
+2023-02-08 12:06:55 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 56.622 ms - -[0m
+2023-02-08 12:06:55 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 49.473 ms - -[0m
+2023-02-08 12:06:55 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 55.110 ms - -[0m
+2023-02-08 12:06:55 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 64.219 ms - -[0m
+2023-02-08 12:06:55 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 59.814 ms - -[0m
+2023-02-08 12:06:55 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 375.386 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 49.205 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 42.974 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 50.582 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 49.247 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 43.229 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 58.981 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 57.409 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 60.852 ms - -[0m
+2023-02-08 12:07:08 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 840.535 ms - -[0m
+2023-02-08 12:08:53 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 497.137 ms - -[0m
+2023-02-08 12:08:53 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 512.414 ms - -[0m
+2023-02-08 12:08:53 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 500.292 ms - -[0m
+2023-02-08 12:08:53 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 484.131 ms - -[0m
+2023-02-08 12:08:53 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 108.011 ms - -[0m
+2023-02-08 12:08:54 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 1077.913 ms - -[0m
+2023-02-08 12:08:54 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 1306.751 ms - -[0m
+2023-02-08 12:08:54 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 221.878 ms - -[0m
+2023-02-08 12:08:55 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1702.652 ms - -[0m
+2023-02-08 12:10:06 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 64.812 ms - -[0m
+2023-02-08 12:10:06 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 72.674 ms - -[0m
+2023-02-08 12:10:06 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 61.875 ms - -[0m
+2023-02-08 12:10:06 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 78.230 ms - -[0m
+2023-02-08 12:10:06 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 44.451 ms - -[0m
+2023-02-08 12:10:06 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 82.892 ms - -[0m
+2023-02-08 12:10:07 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 975.748 ms - -[0m
+2023-02-08 12:10:07 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 972.667 ms - -[0m
+2023-02-08 12:10:07 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1291.432 ms - -[0m
+2023-02-08 12:11:10 info: [0mGET /blogs/63e33ffeb3c8d04217311860 [32m200[0m 183.843 ms - -[0m
+2023-02-08 12:11:10 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 57.452 ms - -[0m
+2023-02-08 12:12:05 info: [0mGET /blogs/63e33ffeb3c8d04217311860 [36m304[0m 187.118 ms - -[0m
+2023-02-08 12:12:05 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 62.376 ms - -[0m
+2023-02-08 12:12:10 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 73.312 ms - -[0m
+2023-02-08 12:12:10 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 63.473 ms - -[0m
+2023-02-08 12:12:11 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 95.257 ms - -[0m
+2023-02-08 12:12:11 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 83.077 ms - -[0m
+2023-02-08 12:12:11 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 87.476 ms - -[0m
+2023-02-08 12:12:11 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 66.603 ms - -[0m
+2023-02-08 12:12:11 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 87.250 ms - -[0m
+2023-02-08 12:12:11 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 68.614 ms - -[0m
+2023-02-08 12:12:11 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 961.182 ms - -[0m
+2023-02-08 12:13:40 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 53.980 ms - -[0m
+2023-02-08 12:13:40 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 71.566 ms - -[0m
+2023-02-08 12:13:40 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 55.357 ms - -[0m
+2023-02-08 12:13:40 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 51.195 ms - -[0m
+2023-02-08 12:13:40 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 55.682 ms - -[0m
+2023-02-08 12:13:40 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 62.086 ms - -[0m
+2023-02-08 12:13:40 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 62.978 ms - -[0m
+2023-02-08 12:13:40 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 70.944 ms - -[0m
+2023-02-08 12:13:49 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 55.813 ms - -[0m
+2023-02-08 12:13:49 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 64.244 ms - -[0m
+2023-02-08 12:13:49 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 48.790 ms - -[0m
+2023-02-08 12:13:49 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 69.927 ms - -[0m
+2023-02-08 12:13:49 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 75.728 ms - -[0m
+2023-02-08 12:13:49 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 63.470 ms - -[0m
+2023-02-08 12:13:49 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 51.409 ms - -[0m
+2023-02-08 12:13:49 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 420.096 ms - -[0m
+2023-02-08 12:13:54 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 76.756 ms - -[0m
+2023-02-08 12:13:54 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 60.730 ms - -[0m
+2023-02-08 12:13:54 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 92.340 ms - -[0m
+2023-02-08 12:13:54 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 65.131 ms - -[0m
+2023-02-08 12:13:54 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 63.048 ms - -[0m
+2023-02-08 12:13:54 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 60.431 ms - -[0m
+2023-02-08 12:13:54 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 156.609 ms - -[0m
+2023-02-08 12:13:54 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 150.359 ms - -[0m
+2023-02-08 12:14:00 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 5486.266 ms - -[0m
+2023-02-08 12:15:17 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 68.641 ms - -[0m
+2023-02-08 12:15:17 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 72.808 ms - -[0m
+2023-02-08 12:15:17 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 57.821 ms - -[0m
+2023-02-08 12:15:17 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 59.403 ms - -[0m
+2023-02-08 12:15:17 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 73.636 ms - -[0m
+2023-02-08 12:15:18 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 706.232 ms - -[0m
+2023-02-08 12:15:18 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 741.239 ms - -[0m
+2023-02-08 12:15:18 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 66.062 ms - -[0m
+2023-02-08 12:15:18 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1068.077 ms - -[0m
+2023-02-08 12:16:38 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1241.761 ms - -[0m
+2023-02-08 12:17:17 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1073.085 ms - -[0m
+2023-02-08 12:17:36 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1555.282 ms - -[0m
+2023-02-08 12:17:50 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 2475.982 ms - -[0m
+2023-02-08 12:18:01 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 2170.201 ms - -[0m
+2023-02-08 12:18:16 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1155.159 ms - -[0m
+2023-02-08 12:18:31 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1066.775 ms - -[0m
+2023-02-08 12:18:48 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 942.849 ms - -[0m
+2023-02-08 12:19:01 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 824.913 ms - -[0m
+2023-02-08 12:19:27 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1464.402 ms - -[0m
+2023-02-08 12:19:38 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1162.610 ms - -[0m
+2023-02-08 12:20:06 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 962.818 ms - -[0m
+2023-02-08 12:21:09 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 2397.832 ms - -[0m
+2023-02-08 12:23:01 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1220.437 ms - -[0m
+2023-02-08 12:23:21 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 565.319 ms - -[0m
+2023-02-08 12:23:28 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 64.433 ms - -[0m
+2023-02-08 12:23:29 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 89.532 ms - -[0m
+2023-02-08 12:23:29 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 136.762 ms - -[0m
+2023-02-08 12:23:29 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 497.621 ms - -[0m
+2023-02-08 12:23:29 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 531.141 ms - -[0m
+2023-02-08 12:23:30 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1278.695 ms - -[0m
+2023-02-08 12:23:30 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 1254.518 ms - -[0m
+2023-02-08 12:23:30 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 1208.555 ms - -[0m
+2023-02-08 12:23:30 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 48.849 ms - -[0m
+2023-02-08 12:24:43 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 70.483 ms - -[0m
+2023-02-08 12:24:43 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 51.599 ms - -[0m
+2023-02-08 12:24:43 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 58.946 ms - -[0m
+2023-02-08 12:24:43 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 52.970 ms - -[0m
+2023-02-08 12:24:43 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 85.636 ms - -[0m
+2023-02-08 12:24:43 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 47.748 ms - -[0m
+2023-02-08 12:24:43 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 54.982 ms - -[0m
+2023-02-08 12:24:45 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 1624.051 ms - -[0m
+2023-02-08 12:24:48 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 4927.484 ms - -[0m
+2023-02-08 12:25:17 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 977.735 ms - -[0m
+2023-02-08 12:25:52 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 932.673 ms - -[0m
+2023-02-08 12:26:15 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 744.510 ms - -[0m
+2023-02-08 12:26:25 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1064.182 ms - -[0m
+2023-02-08 12:26:53 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1591.114 ms - -[0m
+2023-02-08 12:27:14 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 726.857 ms - -[0m
+2023-02-08 12:27:35 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 2498.648 ms - -[0m
+2023-02-08 12:28:04 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1833.684 ms - -[0m
+2023-02-08 12:28:39 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 2216.469 ms - -[0m
+2023-02-08 12:28:52 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 980.224 ms - -[0m
+2023-02-08 12:29:20 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 689.284 ms - -[0m
+2023-02-08 12:29:44 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1316.365 ms - -[0m
+2023-02-08 12:29:46 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 914.352 ms - -[0m
+2023-02-08 12:30:12 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 640.566 ms - -[0m
+2023-02-08 12:31:05 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 2819.002 ms - -[0m
+2023-02-08 12:31:14 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1884.514 ms - -[0m
+2023-02-08 12:31:39 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 834.859 ms - -[0m
+2023-02-08 12:32:07 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 930.744 ms - -[0m
+2023-02-08 12:32:38 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1235.894 ms - -[0m
+2023-02-08 12:32:58 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1453.706 ms - -[0m
+2023-02-08 12:33:02 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 65.708 ms - -[0m
+2023-02-08 12:33:02 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 153.979 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 315.069 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 347.464 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 390.704 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 568.651 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 745.836 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 666.337 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 51.148 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 42.649 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 68.224 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 70.795 ms - -[0m
+2023-02-08 12:33:03 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 56.772 ms - -[0m
+2023-02-08 12:33:04 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 496.943 ms - -[0m
+2023-02-08 12:33:04 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 513.246 ms - -[0m
+2023-02-08 12:33:04 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 42.817 ms - -[0m
+2023-02-08 12:33:04 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 870.176 ms - -[0m
+2023-02-08 12:33:22 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1161.968 ms - -[0m
+2023-02-08 12:34:06 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 3025.393 ms - -[0m
+2023-02-08 12:34:24 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 581.232 ms - -[0m
+2023-02-08 12:34:51 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1993.235 ms - -[0m
+2023-02-08 12:34:53 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1064.456 ms - -[0m
+2023-02-08 12:35:20 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1153.080 ms - -[0m
+2023-02-08 12:36:41 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1369.441 ms - -[0m
+2023-02-08 12:37:30 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1721.276 ms - -[0m
+2023-02-08 12:38:42 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 1141.224 ms - -[0m
+2023-02-08 12:40:29 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 385.880 ms - -[0m
+2023-02-08 12:40:29 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 320.870 ms - -[0m
+2023-02-08 12:40:29 info: [0mGET /question/user/63e296313d77dedd6449b4a5 [36m304[0m 343.804 ms - -[0m
+2023-02-08 12:40:29 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 645.042 ms - -[0m
+2023-02-08 12:40:29 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 110.588 ms - -[0m
+2023-02-08 12:40:30 info: [0mGET /blogs?user=63e296313d77dedd6449b4a5&page=0&limit=6&createdAt=-1 [36m304[0m 1127.130 ms - -[0m
+2023-02-08 12:40:30 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 594.397 ms - -[0m
+2023-02-08 12:40:30 info: [0mGET /question/askedtome/63e296313d77dedd6449b4a5 [36m304[0m 1463.935 ms - -[0m
+2023-02-08 12:40:33 info: [0mGET /question/blog/63e33ffeb3c8d04217311860 [36m304[0m 63.964 ms - -[0m
+2023-02-08 12:40:33 info: [0mGET /question/blog/63e340bbb3c8d04217311878 [36m304[0m 70.890 ms - -[0m
+2023-02-08 12:40:33 info: [0mGET /question/blog/63e33d76c64be0c341dbc0d3 [36m304[0m 56.227 ms - -[0m
+2023-02-08 12:40:33 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 96.967 ms - -[0m
+2023-02-08 12:40:33 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 67.289 ms - -[0m
+2023-02-08 12:40:33 info: [0mGET /question/blog/63e33d44c64be0c341dbc0cb [36m304[0m 91.172 ms - -[0m
+2023-02-08 12:40:33 info: [0mGET /users/63e296313d77dedd6449b4a5 [36m304[0m 69.134 ms - -[0m
+2023-02-08 12:40:33 info: [0mGET /users/63e294293d77dedd6449b460 [36m304[0m 73.430 ms - -[0m
+2023-02-08 12:40:38 info: [0mGET /blogs?page=0&limit=6&createdAt=-1 [36m304[0m 5109.044 ms - -[0m

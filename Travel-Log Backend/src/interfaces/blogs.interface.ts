@@ -4,7 +4,7 @@ export interface Blog {
     title: String,
     description: String,
     tags: Array<String>,
-    journyDate: {
+    journeyDate: {
         startDate: String,
         endDate:String,
     },
@@ -13,8 +13,9 @@ export interface Blog {
     placesToVisit: Array<String>,
     heritages: Array<String>,
     travelRate: Number,
-    saftyRate:Number,
+    safetyRate:Number,
     location: String,
-    allowQustions:Boolean
+    allowQuestions: Boolean,
+    isDeleted:Boolean,
     }
 
