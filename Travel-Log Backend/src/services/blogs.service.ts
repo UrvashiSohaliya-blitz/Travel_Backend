@@ -7,7 +7,7 @@ import { isEmpty } from '@utils/util';
 class BlogService {
   public blogs = blogModel;
 
-  public async findAllBlog(page: number = 0, limit: number = 10, createdAt: number = -1, user: string = ""): Promise<Blog[]> {
+  public async findAllBlog(page: number = 0, limit: number = 10, createdAt: number = -1, user: string = "",token:string=""): Promise<Blog[]> {
   
     if (user!== "undefined" && user) {
       
@@ -16,19 +16,20 @@ class BlogService {
    
     return data;
     } else {
-       const data: Blog[] = await this.blogs.find({isDeleted:false}).sort({createdAt:createdAt}).skip(page * limit)
+      console.log('/..............token', token);
+       const data: Blog[] = await this.blogs.find({isDeleted:false , userId : {$ne:token}}).sort({createdAt:createdAt}).skip(page * limit)
       .limit(limit);
    
     return data;
     }
    
   }
-  public async findAllBlogLength(limit: number, user: string) {
+  public async findAllBlogLength(limit: number, user: string,token:string="") {
     if (user !== 'undefined' && user) {
         const length: Blog[] = await this.blogs.find({userId:user , isDeleted:false});
     return Math.ceil(length.length/limit);
     } else {
-      const length: Blog[] = await this.blogs.find({isDeleted:false});
+      const length: Blog[] = await this.blogs.find({isDeleted:false , userId : {$ne:token}});
     return Math.ceil(length.length/limit);
     }
     

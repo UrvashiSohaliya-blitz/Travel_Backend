@@ -21,11 +21,13 @@ class blogController {
     }
   };
   public getBlogs = async (req: Request, res: Response, next: NextFunction) => {
-    const { page, limit ,createdAt,user} = req.query;
-    
+    const { page, limit, createdAt, user } = req.query;
+    const { userId } = req.headers;
+    let token = (req.headers.authorization.trim().split(' '));
+   
     try {
-      const findAllBlogsData: Blog[] = await this.blogService.findAllBlog(+page,+limit,+createdAt,user+'');
-      const length = await this.blogService.findAllBlogLength(+limit,user+'');
+      const findAllBlogsData: Blog[] = await this.blogService.findAllBlog(+page,+limit,+createdAt,user+'',token[1]+'');
+      const length = await this.blogService.findAllBlogLength(+limit,user+'',token[1]+'');
       
       res.status(200).json({ data: findAllBlogsData,TotalPages:length, message: 'findAll' });
     } catch (error) {
